@@ -138,6 +138,7 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
   - `tail example.txt` prints the last lines of example.txt.
 ### Creating Programs to do Log Analysis
 - `.json` File, Python analysis:
+  - *Find unique IPs, unique signatures, most popular category, total bytes sent, category of non TCP traffic*
 ```python
 import json
 f = open('filename.json')
