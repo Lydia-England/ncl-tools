@@ -48,6 +48,9 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 ---
 ### Online Password Cracking Tools
 ---
+### Command Line Tools
+---
+- [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 ### Hashcat
 ---
 
