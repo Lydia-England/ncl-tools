@@ -90,16 +90,23 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - [SHA256 Hash Generator](https://emn178.github.io/online-tools/sha256.html)
 - [CrackStation](https://crackstation.net/) — Online Password Hash Cracking
 ### Command Line Tools
----
+--- 
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
+- `hashcat` (more below)
+- [`fcrackzip`](https://www.kali.org/tools/fcrackzip/) — Zip Password Cracker
+- [John the Ripper](https://www.openwall.com/john/) — Password Cracker
+- [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
 ### Hashcat
 ---
 - With known format SKY-ABCD-####: `hashcat -m 0 -a 3 hashes.txt SKY-ABCD-?d?d?d?d`
   - `-m 0` for MD5 hashes.
   - `-a 3` for brute force and mask attack mode.
+- Using the rockyou wordlist: `hashcat -m 0 -a 0 hashes.txt rockyou.txt`
+- [Hybrid attacks](https://hashcat.net/wiki/doku.php?id=hybrid_attack)
+- [Rule-based attacks](https://hashcat.net/wiki/doku.php?id=rule_based_attack)
+- [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
 Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
-### Password Cracking Software
-- [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
+
 
 
 
@@ -129,7 +136,23 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
   - `cat example.txt | awk '{print #2}'` prints the second column in example.txt.
 - `tail` prints the last several lines of a file.
   - `tail example.txt` prints the last lines of example.txt.
-
+### Creating Programs to do Log Analysis
+- `.json` File, Python analysis:
+```python
+import json
+f = open('filename.json')
+data = json.load(f)
+for entry in data:
+  print(entry['dest_ip'])
+  print(entry['alert']['signature'])
+  print(entry['alert']['category'])
+  if 'xx.xx.xx.xx' == entry['dest_ip']:
+    total_bytes += entry['flow']['bytes_toserver']
+  if 'xx.xx.xx.xx' == entry['src_ip']:
+    total_bytes += entry['flow']['bytes_toserver']
+  if 'TCP' not in entry['proto']:
+    print(entry['alert']['category'])
+```
 
 
 
@@ -163,6 +186,8 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
 - `stegsolve`
 - `fft` (Fast Fourier Transform)
 - `stegoveritas` — carve and extract.
+- `unrar`
+- `unzip filename.docx -d out` to unzip .docx files to see what's inside.
 ### Forensics Software
 
 
@@ -170,7 +195,7 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
 ---
 ### Command Line Wireless Access Exploitation Tools
 - [Aircrack-ng Suite](https://aircrack-ng.org/documentation.html)
-  - aircrack
+  - `aircrack-ng`
 - `Airplay`
 - `Wireshark`
 
