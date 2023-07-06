@@ -12,11 +12,27 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 ## Categories
 ---
 - [Open Source Intelligence](/#Open-Source-Intelligence)
+  - [OSINT Web Resources](/#OSINT-Web-Resources)
+  - [Command Line OSINT Tools](/#Command-Line-OSINT-Tools)
+  - [OSINT Misc. Information and Resources](/#OSINT-Misc.-Information-and-Resources)
 - [Cryptography](/#Cryptography)
+  - [Online Cipher Identification and Decryption Tools](/#Online-Cipher-Identification-and-Decryption-Tools)
+  - [Online Steganography Tools](#/Online-Steganography-Tools)
+  - [Online RSA Decryption Tools](#/Online-RSA-Decryption-Tools)
+  - [Command Line Cryptography Tools](#/Command-Line-Cryptography-Tools)
+  - [Cryptography Software](/#Cryptography-Software)
+  - [Additional Resources](/#Additional-Resources)
 - [Password Cracking](/#Password-Cracking)
+  - [Online Password Cracking Tools]()
+  - [Command Line Password Cracking Tools]()
+  - [Hashcat]()
 - [Log Analysis](/#Log-Analysis)
+  - [Command Line Log Analysis Tools]()
+  - [Creating Programs to do Log Analysis]()
 - [Network Traffic Analysis](/#Network-Traffic-Analysis)
+  - [Command Line Network Traffic Analysis Tools]()
 - [Forensics](/#Forensics)
+  - [General Forensics Tools]()
 - [Wireless Access Exploitation](/#Wireless-Access-Exploitation)
 - [Scanning and Recon](/#Scanning-and-Recon)
 - [Web Application Exploitation](/#Web-Application-Exploitation)
@@ -115,7 +131,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [MD5 Hash Generator](https://www.md5hashgenerator.com/)
 - [SHA256 Hash Generator](https://emn178.github.io/online-tools/sha256.html)
 - [CrackStation](https://crackstation.net/) — Online Password Hash Cracking
-### Command Line Tools
+### Command Line Password Cracking Tools
 --- 
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 - `hashcat` (more below)
