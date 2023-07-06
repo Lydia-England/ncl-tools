@@ -91,6 +91,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 ### Online RSA Decryption Tools
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
 ### Command Line Cryptography Tools
+- [Ciphy](https://github.com/Ciphey/Ciphey) — Automatically determine cipher and output result.
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) — Uncipher data from weak public keys and attempt to recover the corresponding private key.
 -   [ExifTool](https://exiftool.org/) — Meta information reader/writer
   - [File types and meta information formats supported by ExifTool](https://github.com/exiftool/exiftool)
@@ -192,32 +193,40 @@ for entry in data:
 
 ## Forensics
 ---
-### Online Forensics Tools
-- [Online Hex Editor](https://hexed.it/)
+### General Forensics Tools
+- [HexEd.it](https://hexed.it/) — Online Hex Editor
+- [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/) — Digital Forensics Platform
+  - [Autopsy Tutorial (blog post)](https://cryptokait.com/2021/03/08/digging-into-autopsy-forensics/)
+- [7-Zip](https://www.7-zip.org/) — File archiver with a high compression ratio (and opens just about anything)
+    
+### Steganography
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
   - The "Hidden Pixels" analysis option is particularly useful.
-### Command Line Forensics Tools
-- `file`
-- `binwalk`
-- `exiftool`
-- `exif`
-- `xxd` — dump file in hex format.
-- `strings`
-- `steghide`
-- `foremost`
-- `zsteg`
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) — Search a binary image for embedded files, executable code.
+- [Foremost](https://tools.kali.org/forensics/foremost) — May catch something Binwalk misses.
+- [steghide](https://github.com/StefanoDeVuono/steghide) — Hides and extracts data from files.
+- [zsteg](zsteg ) — Find steganography in PNG and BMP files. 
   - `zsteg -a` runs every detection method on the given file.
   - `zsteg -E` extracts data with the given payload.
-- `stegsolve`
+- [stegsolve](https://github.com/zardus/ctf-tools/tree/master/stegsolve) — Can be used to find hidden information in files.
 - `fft` (Fast Fourier Transform)
-- `stegoveritas` — carve and extract.
-- [`scalpel`](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
-- `unrar`
+- [stegoveritas](https://github.com/bannsec/stegoVeritas) — carve and extract; similar to zsteg.
+- [stegdetect](https://linux.die.net/man/1/stegdetect) — statistically determine if steganograhpic content is present and how.
+
+### General Command Line Analysis Tools
+- `file` —
+- `exiftool` —
+- `exif` —
+- `xxd` — dump file in hex format.
+- `strings` —
+- [scalpel](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
+- `unrar` —
 - `unzip filename.docx -d out` to unzip .docx files to see what's inside.
-### Graphical Forensics Tools
-- [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/)
-  
+- [identify](https://imagemagick.org/script/identify.php) — Image format and characteristics
+  - Supported file formats include JPEG, PNG, GIF, TIFF, PDF.
+
+     
 
 ## Wireless Access Exploitation
 ---
@@ -225,7 +234,18 @@ for entry in data:
 - [Aircrack-ng Suite](https://aircrack-ng.org/documentation.html)
   - `aircrack-ng`
 - `Airplay`
+- [`tshark [options] ...`](https://www.wireshark.org/docs/man-pages/tshark.html) to dump and analyze network traffic.
+- `capinfos [options] <infile> ...` to print information about capture files.
+- `captype [options] <infile> ...` to print types of capture files.
+- `dumpcap [options] ...` to dump network traffic. 
+- `mmdbresolve -f db_file [-f db_file ...]` to read IPv4 and IPv6 addresses and print their IP geolocation information.
+- `text2pcap [options] <infile> <outfile>` to generate a capture file from an ASCII hexdump of packets.
+### Graphical Wireless Access Exploitation Tools
 - [Wireshark](https://www.wireshark.org/)
+  - `wireshark [options] ... [ <infile> ]` to interactively dump and analyze network traffic.
+### Misc. Wireless Access Exploitation Resources
+- [CryptoKait article: Secret Information in Network Traffic Logs: NTA for NCL](https://cryptokait.com/2020/02/19/secret-information-in-network-traffic-logs-nta-for-ncl/)
+- Packet Dissection: [write your own dissector](https://www.wireshark.org/docs/wsdg_html_chunked/ChDissectAdd.html)
 
 
 
@@ -245,11 +265,11 @@ for entry in data:
   - Range of ports: `nmap -p 76-973 192.164.0.1`
   - Top Ports: `nmap --top-ports 10 scanme.nmap.org`
   - Scanning from a file with a list of IP addresses: `nmap -iL /input_ips.txt`
-- `nc`
-- `amap`
-- `dirbust/dirb/dir`
-- [Dirbuster](https://www.kali.org/tools/dirbuster/)
-- `telnet`
+- `nc` —
+- `amap` — 
+- `dirbust/dirb/dir` —
+- [Dirbuster](https://www.kali.org/tools/dirbuster/) —
+- `telnet` —
 - [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
 ### Graphical Scanning and Reconnaissance Tools
@@ -259,12 +279,13 @@ for entry in data:
 ## Web Application Exploitation
 ---
 ### Command Line Web Application Exploitation Tools
-- `SQLMap`
-- `wpscan`
-- `burpsuite`
-- `hackbar`
-- `editthiscookie`
-- `firebug`
+- [SQLMap](https://github.com/sqlmapproject/sqlmap) — Automatic SQL injection tool
+- [w3af](https://docs.w3af.org/en/latest/) — Web Application Attack and Audit Framework
+- `wpscan` —
+- `burpsuite` —
+- `hackbar` —
+- `editthiscookie` —
+- `firebug` —
 
 
 
@@ -272,7 +293,14 @@ for entry in data:
 ## Enumeration and Exploitation
 ---
 ### Command Line Enumeration and Exploitation Tools
-- `uncompyle6`
+- `uncompyle6` —
+
+
+
+## Unsorted Tools
+---
+- [pwntools](https://docs.pwntools.com/en/stable/) — Python library for interacting with ctf challenges, focus on pwning.
+- [Ghidra](https://ghidra-sre.org/) — Software reverse engineering suite of tools.
 
 
 
