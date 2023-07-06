@@ -36,8 +36,11 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - [Latitude and Longitude converter](https://www.fcc.gov/media/radio/dms-decimal) — Degrees Minutes Seconds to/from Decimal Degrees
 - [Cert Logik](https://certlogik.com/decoder/) — CSR Decoder and Certificate Decoder
 - [Geocode 3 Word System](https://what3words.com/royal.grass.prep) — Geocode system labeling every 3 meter square of the world with a unique 3-word combination.
+- [Online Exiftool](https://exif.tools/) — Online File Metadata Extraction
 ### Command Line OSINT Tools
-- `exiftool`
+- [ExifTool](https://exiftool.org/) — Meta information reader/writer
+  - [File types and meta information formats supported by ExifTool](https://github.com/exiftool/exiftool)
+  - `exiftool <filename>`
 ### OSINT Misc. Information and Resources
 - [50 Common Ports You Should Know](https://www.geeksforgeeks.org/50-common-ports-you-should-know/#)
 - [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) — IANA
@@ -77,12 +80,16 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
   - The "Hidden Pixels" analysis option is particularly useful.
+  - [Online Exiftool](https://exif.tools/) — Online File Metadata Extraction
 ### Online RSA Decryption Tools
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
 ### Command Line Cryptography Tools
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) — Uncipher data from weak public keys and attempt to recover the corresponding private key.
-- `exiftool`
-- `openssl`
+-   [ExifTool](https://exiftool.org/) — Meta information reader/writer
+  - [File types and meta information formats supported by ExifTool](https://github.com/exiftool/exiftool)
+  - `exiftool <filename>`
+- [OpenSSL](https://www.openssl.org/) — Command line program for using cryptography functions of OpenSSL's crypto library from the shell.
+  - [`openssl` Program Docs](https://www.openssl.org/docs/manmaster/man1/openssl.html#SYNOPSIS)
 ### Cryptography Software
 - [DIIT](https://diit.sourceforge.net/) — Digital Invisible Ink Toolkit
 ### Additional Resources
