@@ -18,6 +18,9 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 ## Appendix
 ---
 - [Kali Linux](##/Kali-Linux)
+- [Python Virtual Environment](##/Python-Virtual-Environment)
+- [Vim](##/Vim)
+- [Additional Resources](##/Additional-Resources)
 
 
 ## Open Source Intelligence
@@ -32,8 +35,9 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - [web.archive.org](web.archive.org) — The Internet archive
 - [Latitude and Longitude converter](https://www.fcc.gov/media/radio/dms-decimal) — Degrees Minutes Seconds to/from Decimal Degrees
 - [Cert Logik](https://certlogik.com/decoder/) — CSR Decoder and Certificate Decoder
-### OSINT Command-Line Tools
-
+- [Geocode 3 Word System](https://what3words.com/royal.grass.prep) — Geocode system labeling every 3 meter square of the world with a unique 3-word combination.
+### Command Line OSINT Tools
+- `exiftool`
 ### OSINT Misc. Information and Resources
 - [50 Common Ports You Should Know](https://www.geeksforgeeks.org/50-common-ports-you-should-know/#)
 - [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) — IANA
@@ -44,14 +48,13 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 
 ## Cryptography
 ---
-### Online Cryptography Tools
+### Online Cipher and Translation Cryptography Tools
 - [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online.
 - [dcode](https://www.dcode.fr/cipher-identifier) — Cipher Identifier
 - [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli Decoder
 - [Base64 Converter](https://www.base64decode.org/)
 - [Hex to ASCII Converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
 - [Octal to Text Converter](https://www.browserling.com/tools/octal-to-text)
-- [StegOnline](https://stegonline.georgeom.net/upload) — Online Steg Decoder
 - [CodeBeautify](https://codebeautify.org/) — Code Formatter, Decode, Convert
   - ZLib Decompress Online
   - Number System Converter
@@ -62,9 +65,19 @@ This is a non-exhaustive list of tools I've found useful during the competition 
   - Binary to Text, Binary to Decimal
   - ASCII to Text
   - ...and more
+### Online Steganography Tools
+- [StegOnline](https://stegonline.georgeom.net/upload) — Online Steg Decoder
+- [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
+  - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
+  - The "Hidden Pixels" analysis option is particularly useful.
+### Online RSA Decryption Tools
+- [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
 ### Command Line Cryptography Tools
-
+- [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) — Uncipher data from weak public keys and attempt to recover the corresponding private key.
+- `exiftool`
+- `openssl`
 ### Cryptography Software
+- [DIIT](https://diit.sourceforge.net/) — Digital Invisible Ink Toolkit
 
 
 
@@ -80,7 +93,12 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 ### Hashcat
 ---
+- With known format SKY-ABCD-####: `hashcat -m 0 -a 3 hashes.txt SKY-ABCD-?d?d?d?d`
+  - `-m 0` for MD5 hashes.
+  - `-a 3` for brute force and mask attack mode.
 Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
+### Password Cracking Software
+- [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
 
 
 
@@ -92,8 +110,13 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
   - `cut example.txt -d , -f 2` prints the second column from example.txt where a comma is used to separate each column.
 - `sort` sorts the lines from a file or text stream.
   - `sort example.txt` prints the sorted output of the lines from example.txt.
+  - `sort -n example.txt` uses numberical value to sort.
+  - `sort -b example.txt` ignores blanks at the start of the line.
+  - `sort -r example.txt` reverses the sorting order.
+  - `-k` flag is useful for sorting databases.
 - `uniq` prints the result of removing any duplicate lines from a file or text stream.
   - `uniq example.txt` prints the result of removing any duplicate lines from example.txt.
+  - Usually use this after using `sort`; it only removes adjacent duplicate lines.
 - `grep` "Global Regular Expression Print" searches for text that matches a specific pattern.
   - `grep match example.txt` prints lines that contain the text "match" in example.txt.
 - `wc` "Word Count" gets a line count (followed by a word count and a byte count) of a file or text stream.
@@ -145,20 +168,36 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
 ## Wireless Access Exploitation
 ---
 ### Command Line Wireless Access Exploitation Tools
-- `Aircrack`
+- [Aircrack-ng Suite](https://aircrack-ng.org/documentation.html)
+  - aircrack
 - `Airplay`
 - `Wireshark`
 
 
 
-## Scanning and Recon
+## Scanning and Reconnaissance
 ---
-
-
+### Command Line Scanning and Reconnaissance Tools
+- `nmap`
+- `nc`
+- `amap`
+- `dirbust/dirb`
+- `dir`
+- `telnet`
+- [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
+  - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
 
 
 ## Web Application Exploitation
 ---
+### Command Line Web Application Exploitation Tools
+- `SQLMap`
+- `wpscan`
+- `burpsuite`
+- `hackbar`
+- `editthiscookie`
+- `firebug`
+
 
 
 
@@ -174,5 +213,21 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
 ## Kali Linux
 --- 
 - [Kali Tools Documentation](https://www.kali.org/tools/)
+
+
+## Python Virtual Environment
+--- 
+
+
+## Vim
+---
+
+
+
+## Additional Resources
+--- 
+
+
+
 
 
