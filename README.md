@@ -205,6 +205,7 @@ for entry in data:
 - `stegsolve`
 - `fft` (Fast Fourier Transform)
 - `stegoveritas` — carve and extract.
+- [`scalpel`](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
 - `unrar`
 - `unzip filename.docx -d out` to unzip .docx files to see what's inside.
 ### Forensics Software
@@ -216,21 +217,35 @@ for entry in data:
 - [Aircrack-ng Suite](https://aircrack-ng.org/documentation.html)
   - `aircrack-ng`
 - `Airplay`
-- `Wireshark`
+- [Wireshark](https://www.wireshark.org/)
 
 
 
 ## Scanning and Reconnaissance
 ---
 ### Command Line Scanning and Reconnaissance Tools
-- `nmap`
+- [Nmap](https://www.kali.org/tools/nmap/) — "Network Mapper", a network scanning tool.
+  - Ping scan: `nmap -sp 192.168.1.1/24`
+  - Scan a single host: `nmap scanme.nmap.org`
+  - Stealth scan: `nmap -sS scanme.nmap.org`
+  - Version scan: `nmap -sV scanme.nmap.org`
+  - OS scanning: `nmap -sV scanme.nmap.org`
+  - Aggressive scan: `nmap -A scanme.nmap.org`
+  - Scanning multiple hosts (several approaches)
+  - Port scanning: `nmap -p 973 192.164.0.1`
+  - Port scanning for information about a particular type of connection (here, TCP connection): `nmap -p T:7777, 973 192.164.0.1`
+  - Range of ports: `nmap -p 76-973 192.164.0.1`
+  - Top Ports: `nmap --top-ports 10 scanme.nmap.org`
+  - Scanning from a file with a list of IP addresses: `nmap -iL /input_ips.txt`
 - `nc`
 - `amap`
-- `dirbust/dirb`
-- `dir`
+- `dirbust/dirb/dir`
+- [Dirbuster](https://www.kali.org/tools/dirbuster/)
 - `telnet`
 - [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
+### Graphical Scanning and Reconnaissance Tools
+- [Zenmap](https://nmap.org/zenmap/) — a graphical user interface for Nmap.
 
 
 ## Web Application Exploitation
@@ -263,6 +278,7 @@ for entry in data:
 ## Python Virtual Environment
 --- 
 Python documentation on how to create a virtual environment with `venv` can be found [here](https://docs.python.org/3/library/venv.html).
+Information on installing packages with `pip` in a virtual environment can be found [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
 
 ## Vim
