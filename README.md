@@ -47,12 +47,16 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 ## Password Cracking
 ---
 ### Online Password Cracking Tools
----
+--- 
+- [MD5 Hash Generator](https://www.md5hashgenerator.com/)
+- [SHA256 Hash Generator](https://emn178.github.io/online-tools/sha256.html)
+- [CrackStation](https://crackstation.net/) -- Online Password Hash Cracking
 ### Command Line Tools
 ---
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 ### Hashcat
 ---
+[Example hashes and associated codes in Hashcat](https://hashcat.net/wiki/doku.php?id=example_hashes)
 
 
 
