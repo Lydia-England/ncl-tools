@@ -1,6 +1,13 @@
 # NCL Tools and Resources
-The [National Cyber League (NCL)](https://nationalcyberleague.org/) is a bi-annual, virtual cybersecurity competition for high school and undergraduate students. 
-This is a non-exhaustive list of tools I've found useful during the competition or that were recommended to me.
+The [National Cyber League (NCL)](https://nationalcyberleague.org/) is a bi-annual, virtual, puzzle-based, capture-the-flag style cybersecurity competition for high school and undergraduate students. 
+
+*From the [NCL About Page](https://nationalcyberleague.org/about):* "NCL offers a fun way to learn and apply your skills in a safe environment - but it’s so much more than that, because with their NCL Scouting Reports you can present credible proof to employers of your hands-on expertise."
+An article from the Applied Cybersecurity Division at NIST describes the [National Cyber League NICE Framework Success Story](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-success-story-national).  
+
+Information on upcoming NCL Competitions can be found [here](https://nationalcyberleague.org/competition).
+
+
+This is an unofficial, non-exhaustive list of tools I've found useful during the competition or that were recommended to me.
 
 ## Categories
 ---
@@ -20,6 +27,7 @@ This is a non-exhaustive list of tools I've found useful during the competition 
   - [Python Virtual Environment](#/Python-Virtual-Environment)
   - [Vim](#/Vim)
   - [Additional Resources](#/Additional-Resources)
+  - [NCL Strategies](#/NCL-Strategies)
 
 
 ## Open Source Intelligence
@@ -299,5 +307,7 @@ Information on installing packages with `pip` in a virtual environment can be fo
 
 
 
-
+### NCL Strategies
+---
+CryptoKait's article on [Top 10 Dos and Don'ts for the National Cyber League Games](https://cryptokait.com/2019/10/15/top-10-dos-and-donts-for-the-national-cyber-league-games/) from 2019 has tips from NCL Player Ambassadors, Cyber Skyline Game-makers, etc. on how to be successful during the games.
 
