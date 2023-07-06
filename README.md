@@ -17,11 +17,11 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 
 ## Appendix
 ---
-- [Kali Linux](#/Appendix/Kali-Linux)
-- [Windows Subsystem for Linux](#/Appendix/Windows-Subsystem-for-Linux)
-- [Python Virtual Environment](#/Appendix/Python-Virtual-Environment)
-- [Vim](#/Appendix/Vim)
-- [Additional Resources](#/Appendix/Additional-Resources)
+- [Kali Linux](#/Kali-Linux)
+- [Windows Subsystem for Linux](#/Windows-Subsystem-for-Linux)
+- [Python Virtual Environment](#/Python-Virtual-Environment)
+- [Vim](#/Vim)
+- [Additional Resources](#/Additional-Resources)
 
 
 ## Open Source Intelligence
@@ -270,14 +270,14 @@ for entry in data:
 
 
 
-# Appendix
+## Appendix
 
-## Kali Linux
+### Kali Linux
 --- 
 - [Kali Tools Documentation](https://www.kali.org/tools/)
 
 
-## Windows Subsystem for Linux
+### Windows Subsystem for Linux
 ---
 For information about using Kali via. WSL for the NCL competition, check out [this article from CryptoKait](https://cryptokait.com/2020/08/19/ncl-and-wsl-leaving-the-kali-vm-behind/).
 If you want to install WSL, instructions can be found [here](https://learn.microsoft.com/en-us/windows/wsl/install). 
@@ -285,18 +285,18 @@ The Kali Linux installation on WSL is a [minimum install setup](https://www.kali
 That means you'll probably want to [install Kali Linux Metapackages](https://www.kali.org/docs/general-use/metapackages/).
 
 
-## Python Virtual Environment
+### Python Virtual Environment
 --- 
 Python documentation on how to create a virtual environment with `venv` can be found [here](https://docs.python.org/3/library/venv.html).
 Information on installing packages with `pip` in a virtual environment can be found [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
 
-## Vim
+### Vim
 ---
 
 
 
-## Additional Resources
+### Additional Resources
 --- 
 
 
