@@ -56,7 +56,7 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 ### Hashcat
 ---
-[Example hashes and associated codes in Hashcat](https://hashcat.net/wiki/doku.php?id=example_hashes)
+Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
 
 
 
@@ -77,8 +77,26 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 
 ## Forensics
 ---
-
-
+### Online Forensics Tools
+- [Online Hex Editor](https://hexed.it/)
+- [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
+  - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
+  - The "Hidden Pixels" analysis option is particularly useful.
+### Command Line Forensics Tools
+- `file`
+- `binwalk`
+- `exiftool`
+- `exif`
+- `xxd` -- dump file in hex format.
+- `strings`
+- `steghide`
+- `foremost`
+- `zsteg`
+  - `zsteg -a` runs every detection method on the given file.
+  - `zsteg -E` extracts data with the given payload.
+- `stegsolve`
+- `fft` (Fast Fourier Transform)
+- `stegoveritas` -- carve and extract.
 
 
 ## Wireless Access Exploitation
