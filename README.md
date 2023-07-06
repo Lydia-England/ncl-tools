@@ -4,7 +4,7 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 
 ## Categories
 ---
-- [Open Source Intelligence](/##Open-Source-Intelligence)
+- [Open Source Intelligence](/#Open-Source-Intelligence)
 - [Cryptography](/##Cryptography)
 - [Password Cracking](/##Password-Cracking)
 - [Log Analysis](/##Log-Analysis)
