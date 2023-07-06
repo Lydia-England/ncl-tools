@@ -48,13 +48,19 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 
 ## Cryptography
 ---
-### Online Cipher and Translation Cryptography Tools
-- [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online.
+### Online Cipher Identification and Decryption Tools
 - [dcode](https://www.dcode.fr/cipher-identifier) — Cipher Identifier
+  - [Caesar Cipher](https://www.dcode.fr/caesar-cipher)
+  - [Morse Code Translator](https://morsedecoder.com/)
+  - [Letter Number Code](https://www.dcode.fr/letter-number-cipher)
+  - [Braille Alphabet](https://www.dcode.fr/braille-alphabet)
+  - [Atbash Cipher](https://www.dcode.fr/atbash-cipher)
+- [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online.
 - [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli Decoder
-- [Base64 Converter](https://www.base64decode.org/)
-- [Hex to ASCII Converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
-- [Octal to Text Converter](https://www.browserling.com/tools/octal-to-text)
+- Number Bases Converters and Translators
+  - [Base64 Converter](https://www.base64decode.org/)
+  - [Hex to ASCII Converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
+  - [Octal to Text Converter](https://www.browserling.com/tools/octal-to-text)
 - [CodeBeautify](https://codebeautify.org/) — Code Formatter, Decode, Convert
   - [ZLib Decompress Online](https://codebeautify.org/zlib-decompress-online)
   - [Number System Converter](https://codebeautify.org/all-number-converter)
@@ -79,6 +85,8 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - `openssl`
 ### Cryptography Software
 - [DIIT](https://diit.sourceforge.net/) — Digital Invisible Ink Toolkit
+### Additional Resources
+- [Chart to Identify Number Bases](https://cryptokait.com/2020/05/27/summer-camp-2020-numerical-cryptography/)
 
 
 
