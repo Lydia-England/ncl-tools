@@ -17,11 +17,11 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 
 ## Appendix
 ---
-- [Kali Linux](#/Kali-Linux)
-- [Windows Subsystem for Linux](#/Windows-Subsystem-for-Linux)
-- [Python Virtual Environment](#/Python-Virtual-Environment)
-- [Vim](#/Vim)
-- [Additional Resources](#/Additional-Resources)
+- [Kali Linux](#/Appendix/Kali-Linux)
+- [Windows Subsystem for Linux](#/Appendix/Windows-Subsystem-for-Linux)
+- [Python Virtual Environment](#/Appendix/Python-Virtual-Environment)
+- [Vim](#/Appendix/Vim)
+- [Additional Resources](#/Appendix/Additional-Resources)
 
 
 ## Open Source Intelligence
