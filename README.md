@@ -17,7 +17,7 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 
 ## Appendix
 ---
--[Kali Linux](##/Kali-Linux)
+- [Kali Linux](##/Kali-Linux)
 
 
 ## Open Source Intelligence
