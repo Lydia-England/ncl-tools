@@ -22,6 +22,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Web Application Exploitation](/#Web-Application-Exploitation)
 - [Enumeration and Exploitation](/#Enumeration-and-Exploitation)
 - [Appendix](/#Appendix)
+  - [Unsorted Tools](#/Unsorted-Tools)
   - [Kali Linux](#/Kali-Linux)
   - [Windows Subsystem for Linux](#/Windows-Subsystem-for-Linux)
   - [Python Virtual Environment](#/Python-Virtual-Environment)
@@ -215,8 +216,11 @@ for entry in data:
 - [stegdetect](https://linux.die.net/man/1/stegdetect) — statistically determine if steganograhpic content is present and how.
 
 ### General Command Line Analysis Tools
-- `file` —
-- `exiftool` —
+- `cat` —
+- `file` — determine the type of a file.
+  - `file -i` — view mime type of file.
+  - `file -z` — try to look inside compressed files.
+- `exiftool` — 
 - `exif` —
 - `xxd` — dump file in hex format.
 - `strings` —
@@ -297,18 +301,46 @@ for entry in data:
 
 
 
-## Unsorted Tools
+
+## Appendix
+---
+
+### Unsorted Tools
 ---
 - [pwntools](https://docs.pwntools.com/en/stable/) — Python library for interacting with ctf challenges, focus on pwning.
 - [Ghidra](https://ghidra-sre.org/) — Software reverse engineering suite of tools.
 
 
+### Command Line Commands
+---
+- `>` takes the standard output of the command on the left and redirects it to the file on the right.
+- `>>` takes the standard output of the command on the left and *appends* it to the file on the right.
+- `<` takes the standard input from the file on the right and inputs it into the program on the left.
+- `|` is a "pipe". It takes the standard output of the command on the left, and *pipes* it as standard input to the command on the right.
+- `alias` allows you to create keyboard shortcuts (aliases).
+- `grep` stands for "global regular expression print". It searches files for lines that match a pattern and returns the results. Case sensitive.
+  - `grep -i` for case insensitive grep.
+  - `grep -R` ("Recursive") searches all files in a directory and outputs filenames and lines containing matched results. 
+  - `grep -Rl` ("Recursive" and "files with matches") searches all files in a directory and outputs only filenames with matched results.
+- `ls` lists all files and directories in the working directory.
+  - `ls -a` lists all contents in working directory, includes hidden files and directories.
+  - `ls -l` lists all contents of a directory in long format.
+  - `ls -t` orders files and directories by the time they were last modified.
+- `pwd` "print working directory"
+- `rm` deletes files.
+  - `rm -r` deletes a directory and all its child directories. 
+- `sed` "stream editor". Accepts standard input and modifies it based on an *expression* before displaying it as output data.
+- `sort` takes a file name or standard input and orders each line alphabetically, printing it to standard output.
+- `source` activates changes in bash profile for current session.
+- `touch` creates a new empty file in the working directory. 
+- `uniq` "unique". Takes a filename or standard input and prints out every line, removing any exact duplicates.
 
-## Appendix
+
 
 ### Kali Linux
 --- 
 - [Kali Tools Documentation](https://www.kali.org/tools/)
+
 
 
 ### Windows Subsystem for Linux
