@@ -38,6 +38,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Google Reverse Image Search](images.google.com) — Reverse image search
 - [Github](github.com) — Code repository (lol)
 - [Shodan](shodan.io) — Search engine for web services
+- [Censys](https://censys.io/) — Online scanner for websites and certificates.
 - [Greynoise](greynoise.io) — IP reputation search
 - [Maxmind](maxmind.com) — GeoIP lookup
 - [web.archive.org](web.archive.org) — The Internet archive
@@ -99,6 +100,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - `exiftool <filename>`
 - [OpenSSL](https://www.openssl.org/) — Command line program for using cryptography functions of OpenSSL's crypto library from the shell.
   - [`openssl` Program Docs](https://www.openssl.org/docs/manmaster/man1/openssl.html#SYNOPSIS)
+  - [XORTool](https://github.com/hellman/xortool) — Python tool to analyze multi-byte xor cipher.
 ### Cryptography Software
 - [DIIT](https://diit.sourceforge.net/) — Digital Invisible Ink Toolkit
 ### Additional Resources
@@ -199,7 +201,9 @@ for entry in data:
 - [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/) — Digital Forensics Platform
   - [Autopsy Tutorial (blog post)](https://cryptokait.com/2021/03/08/digging-into-autopsy-forensics/)
 - [7-Zip](https://www.7-zip.org/) — File archiver with a high compression ratio (and opens just about anything)
-    
+- [pspy](https://github.com/DominicBreuker/pspy) — Low privilege process snooper.
+- [Audacity](http://sourceforge.net/projects/audacity/) — Analyze sound files.
+  
 ### Steganography
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
@@ -214,22 +218,25 @@ for entry in data:
 - `fft` (Fast Fourier Transform)
 - [stegoveritas](https://github.com/bannsec/stegoVeritas) — carve and extract; similar to zsteg.
 - [stegdetect](https://linux.die.net/man/1/stegdetect) — statistically determine if steganograhpic content is present and how.
+- [Snow](https://sbmlabs.com/notes/snow_whitespace_steganography_tool) — Whitespace steganography tool
+- [StegCracker](https://github.com/Paradoxis/StegCracker) — Brute-force utility to uncover hidden data inside files.
+  
 
-### General Command Line Analysis Tools
-- `cat` —
+### General Forensics Command Line Analysis Tools
 - `file` — determine the type of a file.
   - `file -i` — view mime type of file.
   - `file -z` — try to look inside compressed files.
-- `exiftool` — 
-- `exif` —
+- [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) — read, write, edit file metadata.
+- [Exif](http://manpages.ubuntu.com/manpages/trusty/man1/exif.1.html) — Shows EXIF information in JPEG files.
 - `xxd` — dump file in hex format.
-- `strings` —
+- [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — Verifies PNG integrity, dump chunk-level info in human-readable form. 
 - [scalpel](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
 - `unrar` —
 - `unzip filename.docx -d out` to unzip .docx files to see what's inside.
 - [identify](https://imagemagick.org/script/identify.php) — Image format and characteristics
   - Supported file formats include JPEG, PNG, GIF, TIFF, PDF.
-
+- [Extundelete](http://extundelete.sourceforge.net/) — Recover lost data from mountable images.
+- [PDF Streams Inflater](http://malzilla.sourceforge.net/downloads.html) Find, extract zlib files compressed in PDF files.
      
 
 ## Wireless Access Exploitation
@@ -364,6 +371,7 @@ Information on installing packages with `pip` in a virtual environment can be fo
 
 ### Additional Resources
 --- 
+A bank of CTF resources and tools can be found [here](https://github.com/zardus/ctf-tools).
 
 
 
