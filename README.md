@@ -61,7 +61,7 @@ This is a non-exhaustive list of tools I've found useful during the competition 
   - [JSON Beautifier, Viewer](https://codebeautify.org/jsonviewer), [JSON Validator](https://codebeautify.org/jsonvalidator), [JSON Cheat Sheet](https://codebeautify.org/json-cheat-sheet)
   - [HTML Viewer](https://codebeautify.org/htmlviewer)
   - [Image to Base64](https://codebeautify.org/image-to-base64-converter) / [Base64 to Image](https://codebeautify.org/base64-to-image-converter)
-  - [HEX to Decimal](https://codebeautify.org/hex-decimal-converter) / [Decimal to Hex
+  - [HEX to Decimal](https://codebeautify.org/hex-decimal-converter) / [Decimal to Hex](https://codebeautify.org/decimal-hex-converter)
   - [Binary to Text](https://codebeautify.org/binary-to-text), [Binary to Decimal](https://codebeautify.org/binary-decimal-converter)
   - [ASCII to Text](https://codebeautify.org/ascii-to-text)
   - [Encryption/Decryption](https://codebeautify.org/encrypt-decrypt)
