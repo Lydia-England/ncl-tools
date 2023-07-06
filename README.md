@@ -281,7 +281,7 @@ for entry in data:
 ---
 For information about using Kali via. WSL for the NCL competition, check out [this article from CryptoKait](https://cryptokait.com/2020/08/19/ncl-and-wsl-leaving-the-kali-vm-behind/).
 If you want to install WSL, instructions can be found [here](https://learn.microsoft.com/en-us/windows/wsl/install). 
-The Kali Linux installation on WSL is a "minimum install setup," described [here](https://www.kali.org/docs/troubleshooting/common-minimum-setup/). 
+The Kali Linux installation on WSL is a [minimum install setup](https://www.kali.org/docs/troubleshooting/common-minimum-setup/). 
 That means you'll probably want to [install Kali Linux Metapackages](https://www.kali.org/docs/general-use/metapackages/).
 
 
