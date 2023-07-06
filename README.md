@@ -5,22 +5,22 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 ## Categories
 ---
 - [Open Source Intelligence](/#Open-Source-Intelligence)
-- [Cryptography](/##Cryptography)
-- [Password Cracking](/##Password-Cracking)
-- [Log Analysis](/##Log-Analysis)
-- [Network Traffic Analysis](/##Network-Traffic-Analysis)
-- [Forensics](/##Forensics)
-- [Wireless Access Exploitation](/##Wireless-Access-Exploitation)
-- [Scanning and Recon](/##Scanning-and-Recon)
-- [Web Application Exploitation](/##Web-Application-Exploitation)
-- [Enumeration and Exploitation](/##Enumeration-and-Exploitation)
+- [Cryptography](/#Cryptography)
+- [Password Cracking](/#Password-Cracking)
+- [Log Analysis](/#Log-Analysis)
+- [Network Traffic Analysis](/#Network-Traffic-Analysis)
+- [Forensics](/#Forensics)
+- [Wireless Access Exploitation](/#Wireless-Access-Exploitation)
+- [Scanning and Recon](/#Scanning-and-Recon)
+- [Web Application Exploitation](/#Web-Application-Exploitation)
+- [Enumeration and Exploitation](/#Enumeration-and-Exploitation)
 
 ## Appendix
 ---
-- [Kali Linux](##/Kali-Linux)
-- [Python Virtual Environment](##/Python-Virtual-Environment)
-- [Vim](##/Vim)
-- [Additional Resources](##/Additional-Resources)
+- [Kali Linux](#/Kali-Linux)
+- [Python Virtual Environment](#/Python-Virtual-Environment)
+- [Vim](#/Vim)
+- [Additional Resources](#/Additional-Resources)
 
 
 ## Open Source Intelligence
