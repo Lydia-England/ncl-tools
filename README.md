@@ -127,6 +127,9 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
   - Usually use this after using `sort`; it only removes adjacent duplicate lines.
 - `grep` "Global Regular Expression Print" searches for text that matches a specific pattern.
   - `grep match example.txt` prints lines that contain the text "match" in example.txt.
+  - grep IP address: `grep -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' example.txt`
+  - grep only valid IP address: `grep -E '^((25[0-5]|2[0-4][0-9]|[1]?[1-9][0-9]?).){3}(25[0-5]|2[0-4][0-9]|[1]?[1-9]?[0-9])$' example.txt`
+    - `ping` to remove leading zeros.
 - `wc` "Word Count" gets a line count (followed by a word count and a byte count) of a file or text stream.
   - `wc example.txt` prints the number of lines, words, bytes in example.txt.
   - `-l` flag to print number of lines only.
