@@ -208,8 +208,9 @@ for entry in data:
 - [`scalpel`](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
 - `unrar`
 - `unzip filename.docx -d out` to unzip .docx files to see what's inside.
-### Forensics Software
-
+### Graphical Forensics Tools
+- [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/)
+  
 
 ## Wireless Access Exploitation
 ---
