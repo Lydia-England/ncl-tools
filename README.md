@@ -80,7 +80,7 @@ This is a non-exhaustive list of tools I've found useful during the competition 
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
   - The "Hidden Pixels" analysis option is particularly useful.
-  - [Online Exiftool](https://exif.tools/) — Online File Metadata Extraction
+- [Online Exiftool](https://exif.tools/) — Online File Metadata Extraction
 ### Online RSA Decryption Tools
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
 ### Command Line Cryptography Tools
@@ -262,6 +262,7 @@ for entry in data:
 
 ## Python Virtual Environment
 --- 
+Python documentation on how to create a virtual environment with `venv` can be found [here](https://docs.python.org/3/library/venv.html).
 
 
 ## Vim
