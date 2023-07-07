@@ -178,6 +178,22 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
   
 ### Hashcat
+- Flag options (control character sets for brute force attacks)
+  - `?l` — Charset: abcdefghijklmnopqrstuvwxyz
+  - `?u` — Charset: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  - `?f` — Charset: 0123456789
+  - `?h` — Charset: 0123456789abcdef
+  - `?H` — Charset: 0123456789ABCDEF
+  - `?s` — Charset: !”#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+  - `?a` — Charset: ?l?u?d?s
+  - `?b` — Charset: 0x00 – 0xff
+- Attack modes
+  - `-a 0` — Dictionary attack (tries all lines contained in a given file as passwords)
+  - `-a 1` — Combinator attack (tries combinations of words from wordlist)
+  - `-a 3` — Brute-Force attack 
+  - `-a 6` — Hybrid Wordlist + Mask
+  - `-a 7` — Hybrid Mask + Wordlist
+  - `-a 9` — Association 
 - With known format SKY-ABCD-####: `hashcat -m 0 -a 3 hashes.txt SKY-ABCD-?d?d?d?d`
   - `-m 0` for MD5 hashes.
   - `-a 3` for brute force and mask attack mode.
@@ -190,6 +206,12 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - To see what wordlists are available: `wordlists -h`
 - [cewl](https://www.kali.org/tools/cewl/) — Useful for generating wordlists.
 - Rule lists in hashcat: `ls /usr/share/hashcat/rules`
+  - Most powerful: `dive.rule`
+
+### Password Cracking Information and Resources
+- [CryptoKait article: Taking Password Cracking to the Next Level](https://cryptokait.com/2020/09/02/taking-password-cracking-to-the-next-level/)
+- [How to Perform a Rule Based Attack on Hashcat](https://www.4armed.com/blog/hashcat-rule-based-attack/)
+
 
 
 
