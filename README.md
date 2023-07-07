@@ -46,8 +46,10 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [Command Line Web Application Exploitation Tools](/#Command-Line-Web-Application-Exploitation-Tools)
 - [Enumeration and Exploitation](/#Enumeration-and-Exploitation)
   - [Command Line Enumeration and Exploitation Tools](/#Command-Line-Enumeration-and-Exploitation-Tools)
+  - [Enumeration and Exploitation Information and Resources](/#Enumeration-and-Exploitation-Information-and-Resources)
 - [Appendix](/#Appendix)
   - [Unsorted Tools](#/Unsorted-Tools)
+  - [Command Line Commands](/#Command-Line-Commands)
   - [Kali Linux](#/Kali-Linux)
   - [Windows Subsystem for Linux](#/Windows-Subsystem-for-Linux)
   - [Python Virtual Environment](#/Python-Virtual-Environment)
@@ -68,9 +70,9 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Maxmind](maxmind.com) — GeoIP lookup
 - [web.archive.org](web.archive.org) — The Internet archive
 - [Latitude and Longitude converter](https://www.fcc.gov/media/radio/dms-decimal) — Degrees Minutes Seconds to/from Decimal Degrees
-- [Cert Logik](https://certlogik.com/decoder/) — CSR Decoder and Certificate Decoder
+- [Cert Logik](https://certlogik.com/decoder/) — CSR decoder and certificate decoder
 - [Geocode 3 Word System](https://what3words.com/royal.grass.prep) — Geocode system labeling every 3 meter square of the world with a unique 3-word combination.
-- [Online Exiftool](https://exif.tools/) — Online File Metadata Extraction
+- [Online Exiftool](https://exif.tools/) — online file metadata extraction
 ### Command Line OSINT Tools
 - [ExifTool](https://exiftool.org/) — Meta information reader/writer
   - [File types and meta information formats supported by ExifTool](https://github.com/exiftool/exiftool)
@@ -86,19 +88,21 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 ## Cryptography
 ---
 ### Online Cipher Identification and Decryption Tools
-- [dcode](https://www.dcode.fr/cipher-identifier) — Cipher Identifier
+- [dcode](https://www.dcode.fr/cipher-identifier) — Cipher identifier
   - [Caesar Cipher](https://www.dcode.fr/caesar-cipher)
   - [Morse Code Translator](https://morsedecoder.com/)
   - [Letter Number Code](https://www.dcode.fr/letter-number-cipher)
   - [Braille Alphabet](https://www.dcode.fr/braille-alphabet)
   - [Atbash Cipher](https://www.dcode.fr/atbash-cipher)
+  - [Polybius Square Cipher](https://www.cachesleuth.com/polybiussquare.html)
+  - [Five Needle Telegraph Code](https://www.cachesleuth.com/fiveneedletelegraph.html)
 - [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online.
-- [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli Decoder
+- [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli decoder
 - Number Bases Converters and Translators
   - [Base64 Converter](https://www.base64decode.org/)
   - [Hex to ASCII Converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
   - [Octal to Text Converter](https://www.browserling.com/tools/octal-to-text)
-- [CodeBeautify](https://codebeautify.org/) — Code Formatter, Decode, Convert
+- [CodeBeautify](https://codebeautify.org/) — Code formatter, decode, convert
   - [ZLib Decompress Online](https://codebeautify.org/zlib-decompress-online)
   - [Number System Converter](https://codebeautify.org/all-number-converter)
   - [JSON Beautifier, Viewer](https://codebeautify.org/jsonviewer), [JSON Validator](https://codebeautify.org/jsonvalidator), [JSON Cheat Sheet](https://codebeautify.org/json-cheat-sheet)
@@ -114,7 +118,8 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
   - The "Hidden Pixels" analysis option is particularly useful.
-- [Online Exiftool](https://exif.tools/) — Online File Metadata Extraction
+- [Online Exiftool](https://exif.tools/) — Online file metadata extraction
+- [Sonic Visualizer](https://www.sonicvisualiser.org/) — Visualization, analysis, and annotation of music audio recordings.
 ### Online RSA Decryption Tools
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
 ### Command Line Cryptography Tools
@@ -128,9 +133,10 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [XORTool](https://github.com/hellman/xortool) — Python tool to analyze multi-byte xor cipher.
 ### Cryptography Software
 - [DIIT](https://diit.sourceforge.net/) — Digital Invisible Ink Toolkit
+- [Gimp](https://www.gimp.org/) — "GNU Image Manipulation Platform"
 ### Additional Resources
 - [Chart to Identify Number Bases](https://cryptokait.com/2020/05/27/summer-camp-2020-numerical-cryptography/)
-
+- [Code Tables Index](https://www.cachesleuth.com/codes/) — Identify what character set is in a cipher.
 
 
 ## Password Cracking
@@ -139,13 +145,13 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 --- 
 - [MD5 Hash Generator](https://www.md5hashgenerator.com/)
 - [SHA256 Hash Generator](https://emn178.github.io/online-tools/sha256.html)
-- [CrackStation](https://crackstation.net/) — Online Password Hash Cracking
+- [CrackStation](https://crackstation.net/) — Online password hash cracking
 ### Command Line Password Cracking Tools
 --- 
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 - `hashcat` (more below)
-- [`fcrackzip`](https://www.kali.org/tools/fcrackzip/) — Zip Password Cracker
-- [John the Ripper](https://www.openwall.com/john/) — Password Cracker
+- [`fcrackzip`](https://www.kali.org/tools/fcrackzip/) — Zip password cracker
+- [John the Ripper](https://www.openwall.com/john/) — Password cracker
 - [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
 ### Hashcat
 ---
@@ -222,8 +228,8 @@ for entry in data:
 ## Forensics
 ---
 ### General Forensics Tools
-- [HexEd.it](https://hexed.it/) — Online Hex Editor
-- [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/) — Digital Forensics Platform
+- [HexEd.it](https://hexed.it/) — Online hex editor
+- [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/) — Digital forensics platform
   - [Autopsy Tutorial (blog post)](https://cryptokait.com/2021/03/08/digging-into-autopsy-forensics/)
 - [7-Zip](https://www.7-zip.org/) — File archiver with a high compression ratio (and opens just about anything)
 - [pspy](https://github.com/DominicBreuker/pspy) — Low privilege process snooper.
@@ -241,19 +247,19 @@ for entry in data:
   - `zsteg -E` extracts data with the given payload.
 - [stegsolve](https://github.com/zardus/ctf-tools/tree/master/stegsolve) — Can be used to find hidden information in files.
 - `fft` (Fast Fourier Transform)
-- [stegoveritas](https://github.com/bannsec/stegoVeritas) — carve and extract; similar to zsteg.
-- [stegdetect](https://linux.die.net/man/1/stegdetect) — statistically determine if steganograhpic content is present and how.
+- [stegoveritas](https://github.com/bannsec/stegoVeritas) — Carve and extract; similar to zsteg.
+- [stegdetect](https://linux.die.net/man/1/stegdetect) — Statistically determine if steganograhpic content is present and how.
 - [Snow](https://sbmlabs.com/notes/snow_whitespace_steganography_tool) — Whitespace steganography tool
 - [StegCracker](https://github.com/Paradoxis/StegCracker) — Brute-force utility to uncover hidden data inside files.
   
 
 ### General Forensics Command Line Analysis Tools
-- `file` — determine the type of a file.
-  - `file -i` — view mime type of file.
-  - `file -z` — try to look inside compressed files.
-- [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) — read, write, edit file metadata.
+- `file` — Determine the type of a file.
+  - `file -i` — View mime type of file.
+  - `file -z` — Try to look inside compressed files.
+- [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) — Read, write, edit file metadata.
 - [Exif](http://manpages.ubuntu.com/manpages/trusty/man1/exif.1.html) — Shows EXIF information in JPEG files.
-- `xxd` — dump file in hex format.
+- `xxd` — Dump file in hex format.
 - [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — Verifies PNG integrity, dump chunk-level info in human-readable form. 
 - [scalpel](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
 - `unrar` —
@@ -309,7 +315,7 @@ for entry in data:
 - [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
 ### Graphical Scanning and Reconnaissance Tools
-- [Zenmap](https://nmap.org/zenmap/) — a graphical user interface for Nmap.
+- [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
 
 
 ## Web Application Exploitation
@@ -330,7 +336,8 @@ for entry in data:
 ---
 ### Command Line Enumeration and Exploitation Tools
 - `uncompyle6` —
-
+### Enumeration and Exploitation Information and Resources
+- [List of Unicode Characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 
 
 
