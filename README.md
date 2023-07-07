@@ -204,6 +204,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
 - [Wordlists in hashcat](https://www.kali.org/tools/wordlists/)
   - To see what wordlists are available: `wordlists -h`
+- [SecLists](https://github.com/danielmiessler/SecLists/tree/master/Passwords) — GitHub Repo full of wordlists.
 - [cewl](https://www.kali.org/tools/cewl/) — Useful for generating wordlists.
 - Rule lists in hashcat: `ls /usr/share/hashcat/rules`
   - Most powerful: `dive.rule`
