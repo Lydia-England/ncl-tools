@@ -31,11 +31,15 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [Creating Programs to do Log Analysis](/#Creating-Programs-to-do-Log-Analysis)
 - [Network Traffic Analysis](/#Network-Traffic-Analysis)
   - [Command Line Network Traffic Analysis Tools](/#Command-Line-Network-Traffic-Analysis)
+  - [Network Traffic Analysis Resources and Information](/#Network-Traffic-Analysis-Resources-and-Information)
 - [**Forensics**](/#Forensics)
   - [General Forensics Tools](/#General-Forensics-Tools)
   - [Steganography Tools](/#Steganography-Tools)
+  - [Unzip, Extract Files](/#Unzip,-Extract-Files)
   - [General Forensics Command Line Analysis Tools](/#General-Forensics-Command-Line-Analysis-Tools)
+  - [Disk Imaging, Log](/#Disk-Imaging,-Log)
   - [Binwalk](/#Binwalk)
+  - [Forensics Resources and Information](/#Forensics-Resources-and-Information)
 - [**Wireless Access Exploitation**](/#Wireless-Access-Exploitation)
   - [Graphical Wireless Access Exploitation Tools](/#Graphical-Wireless-Access-Exploitation-Tools)
   - [Command Line Wireless Access Exploitation Tools](/#Command-Line-Wireless-Access-Exploitation-Tools)
@@ -46,6 +50,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [**Web Application Exploitation**](/#Web-Application-Exploitation)
   - [Command Line Web Application Exploitation Tools](/#Command-Line-Web-Application-Exploitation-Tools)
 - [**Enumeration and Exploitation**](/#Enumeration-and-Exploitation)
+  - [General Enumeration and Exploitation Tools](/#General-Enumeration-and-Exploitation-Tools)
   - [Command Line Enumeration and Exploitation Tools](/#Command-Line-Enumeration-and-Exploitation-Tools)
   - [Enumeration and Exploitation Information and Resources](/#Enumeration-and-Exploitation-Information-and-Resources)
 - [**Appendix**](/#Appendix)
@@ -97,6 +102,8 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [Atbash Cipher](https://www.dcode.fr/atbash-cipher)
   - [Polybius Square Cipher](https://www.cachesleuth.com/polybiussquare.html)
   - [Five Needle Telegraph Code](https://www.cachesleuth.com/fiveneedletelegraph.html)
+  - [ASCII Shift Cipher](https://www.dcode.fr/ascii-shift-cipher)
+  - [rot8000 Cipher](https://rot8000.com/Index) — "rotate alphabet 0x8000 places", Caesar Shift for Unicode.
 - [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online.
 - [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli decoder
 - Number Bases Converters and Translators
@@ -119,10 +126,14 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
   - The "Hidden Pixels" analysis option is particularly useful.
+- [Stegano](https://futureboy.us/stegano/) — Steghide online.
 - [Online Exiftool](https://exif.tools/) — Online file metadata extraction
 - [Sonic Visualizer](https://www.sonicvisualiser.org/) — Visualization, analysis, and annotation of music audio recordings.
 ### Online RSA Decryption Tools
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
+- [Prime Factorization Calculator](https://www.calculatorsoup.com/calculators/math/prime-factors.php)
+- [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/Courses/CSP/Fa17/notes/10.1_Cryptography/RSA_Express_EncryptDecrypt_v2.html)
+- [dcode RSA Cipher Calculator](https://www.dcode.fr/rsa-cipher)
 ### Command Line Cryptography Tools
 - [Ciphy](https://github.com/Ciphey/Ciphey) — Automatically determine cipher and output result.
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) — Uncipher data from weak public keys and attempt to recover the corresponding private key.
@@ -147,6 +158,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [MD5 Hash Generator](https://www.md5hashgenerator.com/)
 - [SHA256 Hash Generator](https://emn178.github.io/online-tools/sha256.html)
 - [CrackStation](https://crackstation.net/) — Online password hash cracking
+- [Hashes](https://hashes.com/en/decrypt/hash) — Decrypt MD5, SHA1, MySQL, NTLM, SHA256, MD5 Email, SHA256 Email, SHA512 hashes.
 ### Command Line Password Cracking Tools
 --- 
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
@@ -221,9 +233,12 @@ for entry in data:
 ## Network Traffic Analysis
 ---
 ### Command Line Network Traffic Analysis Tools
-- `TCPDump`
-- `Wireshark`
-
+- `TCPDump` —
+- `Wireshark` — 
+- `Aircrack` — 
+### Network Traffic Analysis Resources and Information
+- [How to display WEP key from PCAP file in Wireshark? (Stack Overflow)](https://stackoverflow.com/questions/55667434/how-to-display-wep-key-from-pcap-file-in-wireshark)
+- [How to convert rtpdump video file to mp4? (Stack Overflow)](https://stackoverflow.com/questions/42564983/how-to-convert-rtpdump-video-file-to-mp4)
 
 
 ## Forensics
@@ -281,6 +296,12 @@ for entry in data:
   - `pdfimages -l <number>` specifies the last page to scan.
   - `pdfimages -j` — Images in DCT format saved as JPEG files; non-DCT images saved in PBM/PGM/PPM format as usual.
 
+### Disk Imaging, Log
+- [FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) — Saves image of hard disk in a file or segments. Calculates MD5 and SHA1 hash values. 
+- [LogFileParser](https://github.com/jschicht/LogFileParser) — Parser for LogFile on NTFS.
+- [NTFS Log Tracker](https://sites.google.com/site/forensicnote/ntfs-log-tracker) — parse $LogFile, $UsnJrnl:$J of NTFS and carve UsnJrnl record in multiple files(unallocated dump, file slack, pagefile.sys, memory dump, vss, ...).
+  - [Info about using NTFS Log Tracker](http://forensicinsight.org/wp-content/uploads/2013/06/F-INSIGHT-NTFS-Log-TrackerEnglish.pdf)
+
 ### Binwalk
 [Binwalk](https://github.com/ReFirmLabs/binwalk) — Search a binary image for embedded files, executable code.
 - Scan a binary file: `binwalk <filename>`
@@ -289,6 +310,10 @@ for entry in data:
 - Extract files from a binary with the specified file signature: `binwalk -dd '[png image:png]' <filename>`
 - Analyze the entropy of a binary, saving the plot with the same name as the binary and .png extension appended: `binwalk --entropy --save <filename>`
 - Combine entropy, signature, and opcodes analysis in a single command: `binwalk --entropy --signature --opcodes <filename>`
+
+### Forensics Resources and Information
+- [Decoding Identifying Printer Information](https://www.eff.org/files/filenode/printers/ccc.pdf)
+
 
 
 ## Wireless Access Exploitation
@@ -342,6 +367,8 @@ for entry in data:
 ## Web Application Exploitation
 ---
 ### Command Line Web Application Exploitation Tools
+- `wget`
+- `curl`
 - [SQLMap](https://github.com/sqlmapproject/sqlmap) — Automatic SQL injection tool
 - [w3af](https://docs.w3af.org/en/latest/) — Web Application Attack and Audit Framework
 - `wpscan` —
@@ -355,11 +382,16 @@ for entry in data:
 
 ## Enumeration and Exploitation
 ---
+### General Enumeration and Exploitation Tools
+- [Ghidra](https://ghidra-sre.org/) — Software reverse engineering suite of tools.
+- [GNU Project Debugger (GDB)](https://www.sourceware.org/gdb/) — See what a program does as it executes, or what it was doing when it crashed.
+- [pwndbg](https://github.com/pwndbg/pwndbg) — Python module loaded directly into GDB; provides suite of utilitie, crutches to hack around GDB.
 ### Command Line Enumeration and Exploitation Tools
 - `uncompyle6` —
+- `strings` —
 ### Enumeration and Exploitation Information and Resources
 - [List of Unicode Characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
-
+- [LD_PRELOAD trick](http://www.goldsborough.me/c/low-level/kernel/2016/08/29/16-48-53-the_-ld_preload-_trick/)
 
 
 ## Appendix
@@ -368,7 +400,7 @@ for entry in data:
 ### Unsorted Tools
 ---
 - [pwntools](https://docs.pwntools.com/en/stable/) — Python library for interacting with ctf challenges, focus on pwning.
-- [Ghidra](https://ghidra-sre.org/) — Software reverse engineering suite of tools.
+- [ffmpeg](https://ffmpeg.org/) — Record, convert, stream audio and video.
 
 
 ### Command Line Commands
