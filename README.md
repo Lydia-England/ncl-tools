@@ -185,7 +185,9 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Hybrid attacks](https://hashcat.net/wiki/doku.php?id=hybrid_attack)
 - [Rule-based attacks](https://hashcat.net/wiki/doku.php?id=rule_based_attack)
 - [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
-Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
+- Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
+- [Wordlists on Kali](https://www.kali.org/tools/wordlists/)
+  - To see what wordlists are available: `wordlists -h`
 
 
 
