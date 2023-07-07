@@ -252,6 +252,9 @@ kill -9 12928
 Generally, if connection drops or you exit the shell session, the background process terminates. 
 To keep the process running, use the `disown` command or start the process with the `nohup` command.
 
+Alternatively, use [Tmux](https://linuxize.com/post/getting-started-with-tmux/) ("terminal multiplexer") to switch between multiple programs in one terminal. 
+Tmux sessions are persistent; programs will continue to run even if you exit the shell or are disconnected.
+
 
 
 ## Log Analysis
