@@ -62,7 +62,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [Vim](/#Vim)
   - [Additional Resources](/#Additional-Resources)
   - [NCL Strategies](/#NCL-Strategies)
-
+---
 
 ## Open Source Intelligence
 ---
@@ -89,7 +89,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Google Dork Cheatsheet](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
 - [List of DNS Record Types](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
-
+---
 
 ## Cryptography
 ---
@@ -149,6 +149,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 ### Additional Resources
 - [Chart to Identify Number Bases](https://cryptokait.com/2020/05/27/summer-camp-2020-numerical-cryptography/)
 - [Code Tables Index](https://www.cachesleuth.com/codes/) — Identify what character set is in a cipher.
+---
 
 
 ## Password Cracking
@@ -176,7 +177,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Rule-based attacks](https://hashcat.net/wiki/doku.php?id=rule_based_attack)
 - [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
 Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
-
+---
 
 
 
@@ -227,6 +228,7 @@ for entry in data:
   if 'TCP' not in entry['proto']:
     print(entry['alert']['category'])
 ```
+---
 
 
 
@@ -239,6 +241,8 @@ for entry in data:
 ### Network Traffic Analysis Resources and Information
 - [How to display WEP key from PCAP file in Wireshark? (Stack Overflow)](https://stackoverflow.com/questions/55667434/how-to-display-wep-key-from-pcap-file-in-wireshark)
 - [How to convert rtpdump video file to mp4? (Stack Overflow)](https://stackoverflow.com/questions/42564983/how-to-convert-rtpdump-video-file-to-mp4)
+---
+
 
 
 ## Forensics
@@ -313,7 +317,7 @@ for entry in data:
 
 ### Forensics Resources and Information
 - [Decoding Identifying Printer Information](https://www.eff.org/files/filenode/printers/ccc.pdf)
-
+---
 
 
 ## Wireless Access Exploitation
@@ -334,6 +338,7 @@ for entry in data:
 ### Misc. Wireless Access Exploitation Resources
 - [CryptoKait article: Secret Information in Network Traffic Logs: NTA for NCL](https://cryptokait.com/2020/02/19/secret-information-in-network-traffic-logs-nta-for-ncl/)
 - Packet Dissection: [write your own dissector](https://www.wireshark.org/docs/wsdg_html_chunked/ChDissectAdd.html)
+---
 
 
 
@@ -362,6 +367,8 @@ for entry in data:
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
 ### Graphical Scanning and Reconnaissance Tools
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
+---
+
 
 
 ## Web Application Exploitation
@@ -376,7 +383,7 @@ for entry in data:
 - `hackbar` —
 - `editthiscookie` —
 - `firebug` —
-
+---
 
 
 
@@ -392,6 +399,8 @@ for entry in data:
 ### Enumeration and Exploitation Information and Resources
 - [List of Unicode Characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 - [LD_PRELOAD trick](http://www.goldsborough.me/c/low-level/kernel/2016/08/29/16-48-53-the_-ld_preload-_trick/)
+---
+
 
 
 ## Appendix
@@ -401,6 +410,8 @@ for entry in data:
 ---
 - [pwntools](https://docs.pwntools.com/en/stable/) — Python library for interacting with ctf challenges, focus on pwning.
 - [ffmpeg](https://ffmpeg.org/) — Record, convert, stream audio and video.
+---
+
 
 
 ### Command Line Commands
@@ -426,13 +437,13 @@ for entry in data:
 - `source` activates changes in bash profile for current session.
 - `touch` creates a new empty file in the working directory. 
 - `uniq` "unique". Takes a filename or standard input and prints out every line, removing any exact duplicates.
-
+---
 
 
 ### Kali Linux
 --- 
 - [Kali Tools Documentation](https://www.kali.org/tools/)
-
+---
 
 
 ### Windows Subsystem for Linux
@@ -441,12 +452,15 @@ For information about using Kali via. WSL for the NCL competition, check out [th
 If you want to install WSL, instructions can be found [here](https://learn.microsoft.com/en-us/windows/wsl/install). 
 The Kali Linux installation on WSL is a [minimum install setup](https://www.kali.org/docs/troubleshooting/common-minimum-setup/). 
 That means you'll probably want to [install Kali Linux Metapackages](https://www.kali.org/docs/general-use/metapackages/).
+---
 
 
 ### Python Virtual Environment
 --- 
 Python documentation on how to create a virtual environment with `venv` can be found [here](https://docs.python.org/3/library/venv.html).
 Information on installing packages with `pip` in a virtual environment can be found [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
+---
+
 
 
 ### Vim
@@ -457,7 +471,7 @@ Information on installing packages with `pip` in a virtual environment can be fo
 ### Additional Resources
 --- 
 A bank of CTF resources and tools can be found [here](https://github.com/zardus/ctf-tools).
-
+---
 
 
 ### NCL Strategies
