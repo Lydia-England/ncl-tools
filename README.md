@@ -10,7 +10,6 @@ Information on upcoming NCL Competitions can be found [here](https://nationalcyb
 This is an unofficial, non-exhaustive list of tools I've found useful during the competition or that were recommended to me.
 
 ## Categories
----
 - [**Open Source Intelligence**](/#Open-Source-Intelligence)
   - [OSINT Web Resources](/#OSINT-Web-Resources)
   - [Command Line OSINT Tools](/#Command-Line-OSINT-Tools)
@@ -62,10 +61,11 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [Vim](/#Vim)
   - [Additional Resources](/#Additional-Resources)
   - [NCL Strategies](/#NCL-Strategies)
----
+
+
 
 ## Open Source Intelligence
----
+
 ### OSINT Web Resources
 - [exif.regex.info](exif.regex.info) — Metadata viewer
 - [Google Reverse Image Search](images.google.com) — Reverse image search
@@ -79,20 +79,24 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Cert Logik](https://certlogik.com/decoder/) — CSR decoder and certificate decoder
 - [Geocode 3 Word System](https://what3words.com/royal.grass.prep) — Geocode system labeling every 3 meter square of the world with a unique 3-word combination.
 - [Online Exiftool](https://exif.tools/) — online file metadata extraction
+
 ### Command Line OSINT Tools
 - [ExifTool](https://exiftool.org/) — Meta information reader/writer
   - [File types and meta information formats supported by ExifTool](https://github.com/exiftool/exiftool)
   - `exiftool <filename>`
+    
 ### OSINT Misc. Information and Resources
 - [50 Common Ports You Should Know](https://www.geeksforgeeks.org/50-common-ports-you-should-know/#)
 - [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) — IANA
 - [Google Dork Cheatsheet](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
 - [List of DNS Record Types](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
----
+
+
+
 
 ## Cryptography
----
+
 ### Online Cipher Identification and Decryption Tools
 - [dcode](https://www.dcode.fr/cipher-identifier) — Cipher identifier
   - [Caesar Cipher](https://www.dcode.fr/caesar-cipher)
@@ -121,6 +125,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [ASCII to Text](https://codebeautify.org/ascii-to-text)
   - [Encryption/Decryption](https://codebeautify.org/encrypt-decrypt)
   - ...and more
+
 ### Online Steganography Tools
 - [StegOnline](https://stegonline.georgeom.net/upload) — Online Steg Decoder
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
@@ -129,11 +134,13 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Stegano](https://futureboy.us/stegano/) — Steghide online.
 - [Online Exiftool](https://exif.tools/) — Online file metadata extraction
 - [Sonic Visualizer](https://www.sonicvisualiser.org/) — Visualization, analysis, and annotation of music audio recordings.
+
 ### Online RSA Decryption Tools
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
 - [Prime Factorization Calculator](https://www.calculatorsoup.com/calculators/math/prime-factors.php)
 - [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/Courses/CSP/Fa17/notes/10.1_Cryptography/RSA_Express_EncryptDecrypt_v2.html)
 - [dcode RSA Cipher Calculator](https://www.dcode.fr/rsa-cipher)
+  
 ### Command Line Cryptography Tools
 - [Ciphy](https://github.com/Ciphey/Ciphey) — Automatically determine cipher and output result.
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) — Uncipher data from weak public keys and attempt to recover the corresponding private key.
@@ -143,32 +150,34 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [OpenSSL](https://www.openssl.org/) — Command line program for using cryptography functions of OpenSSL's crypto library from the shell.
   - [`openssl` Program Docs](https://www.openssl.org/docs/manmaster/man1/openssl.html#SYNOPSIS)
   - [XORTool](https://github.com/hellman/xortool) — Python tool to analyze multi-byte xor cipher.
+    
 ### Cryptography Software
 - [DIIT](https://diit.sourceforge.net/) — Digital Invisible Ink Toolkit
 - [Gimp](https://www.gimp.org/) — "GNU Image Manipulation Platform"
+  
 ### Additional Resources
 - [Chart to Identify Number Bases](https://cryptokait.com/2020/05/27/summer-camp-2020-numerical-cryptography/)
 - [Code Tables Index](https://www.cachesleuth.com/codes/) — Identify what character set is in a cipher.
----
+
+
 
 
 ## Password Cracking
----
+
 ### Online Password Cracking Tools
---- 
 - [MD5 Hash Generator](https://www.md5hashgenerator.com/)
 - [SHA256 Hash Generator](https://emn178.github.io/online-tools/sha256.html)
 - [CrackStation](https://crackstation.net/) — Online password hash cracking
 - [Hashes](https://hashes.com/en/decrypt/hash) — Decrypt MD5, SHA1, MySQL, NTLM, SHA256, MD5 Email, SHA256 Email, SHA512 hashes.
+  
 ### Command Line Password Cracking Tools
---- 
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 - `hashcat` (more below)
 - [`fcrackzip`](https://www.kali.org/tools/fcrackzip/) — Zip password cracker
 - [John the Ripper](https://www.openwall.com/john/) — Password cracker
 - [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
+  
 ### Hashcat
----
 - With known format SKY-ABCD-####: `hashcat -m 0 -a 3 hashes.txt SKY-ABCD-?d?d?d?d`
   - `-m 0` for MD5 hashes.
   - `-a 3` for brute force and mask attack mode.
@@ -177,13 +186,12 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Rule-based attacks](https://hashcat.net/wiki/doku.php?id=rule_based_attack)
 - [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
 Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
----
 
 
 
 
 ## Log Analysis
----
+
 ### Command Line Log Analysis Tools
 - `cut` extracts column(s) from a file or text stream. Columns must be delineated by a consistent character. 
   - `cut example.txt -d , -f 2` prints the second column from example.txt where a comma is used to separate each column.
@@ -210,6 +218,7 @@ Hashcat example hashes and associated codes found [here](https://hashcat.net/wik
   - `cat example.txt | awk '{print #2}'` prints the second column in example.txt.
 - `tail` prints the last several lines of a file.
   - `tail example.txt` prints the last lines of example.txt.
+    
 ### Creating Programs to do Log Analysis
 - `.json` File, Python analysis:
   - *Find unique IPs, unique signatures, most popular category, total bytes sent, category of non TCP traffic*
@@ -228,25 +237,27 @@ for entry in data:
   if 'TCP' not in entry['proto']:
     print(entry['alert']['category'])
 ```
----
+
 
 
 
 ## Network Traffic Analysis
----
+
 ### Command Line Network Traffic Analysis Tools
 - `TCPDump` —
 - `Wireshark` — 
 - `Aircrack` — 
+
 ### Network Traffic Analysis Resources and Information
 - [How to display WEP key from PCAP file in Wireshark? (Stack Overflow)](https://stackoverflow.com/questions/55667434/how-to-display-wep-key-from-pcap-file-in-wireshark)
 - [How to convert rtpdump video file to mp4? (Stack Overflow)](https://stackoverflow.com/questions/42564983/how-to-convert-rtpdump-video-file-to-mp4)
----
+
+
 
 
 
 ## Forensics
----
+
 ### General Forensics Tools
 - [HexEd.it](https://hexed.it/) — Online hex editor
 - [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/) — Digital forensics platform
@@ -317,11 +328,11 @@ for entry in data:
 
 ### Forensics Resources and Information
 - [Decoding Identifying Printer Information](https://www.eff.org/files/filenode/printers/ccc.pdf)
----
+
 
 
 ## Wireless Access Exploitation
----
+
 ### Command Line Wireless Access Exploitation Tools
 - [Aircrack-ng Suite](https://aircrack-ng.org/documentation.html)
   - `aircrack-ng`
@@ -332,18 +343,20 @@ for entry in data:
 - `dumpcap [options] ...` to dump network traffic. 
 - `mmdbresolve -f db_file [-f db_file ...]` to read IPv4 and IPv6 addresses and print their IP geolocation information.
 - `text2pcap [options] <infile> <outfile>` to generate a capture file from an ASCII hexdump of packets.
+
 ### Graphical Wireless Access Exploitation Tools
 - [Wireshark](https://www.wireshark.org/)
   - `wireshark [options] ... [ <infile> ]` to interactively dump and analyze network traffic.
+
 ### Misc. Wireless Access Exploitation Resources
 - [CryptoKait article: Secret Information in Network Traffic Logs: NTA for NCL](https://cryptokait.com/2020/02/19/secret-information-in-network-traffic-logs-nta-for-ncl/)
 - Packet Dissection: [write your own dissector](https://www.wireshark.org/docs/wsdg_html_chunked/ChDissectAdd.html)
----
+
 
 
 
 ## Scanning and Reconnaissance
----
+
 ### Command Line Scanning and Reconnaissance Tools
 - [Nmap](https://www.kali.org/tools/nmap/) — "Network Mapper", a network scanning tool.
   - Ping scan: `nmap -sp 192.168.1.1/24`
@@ -365,14 +378,15 @@ for entry in data:
 - `telnet` —
 - [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
+
 ### Graphical Scanning and Reconnaissance Tools
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
----
+
 
 
 
 ## Web Application Exploitation
----
+
 ### Command Line Web Application Exploitation Tools
 - `wget`
 - `curl`
@@ -383,39 +397,39 @@ for entry in data:
 - `hackbar` —
 - `editthiscookie` —
 - `firebug` —
----
+
 
 
 
 ## Enumeration and Exploitation
----
+
 ### General Enumeration and Exploitation Tools
 - [Ghidra](https://ghidra-sre.org/) — Software reverse engineering suite of tools.
 - [GNU Project Debugger (GDB)](https://www.sourceware.org/gdb/) — See what a program does as it executes, or what it was doing when it crashed.
 - [pwndbg](https://github.com/pwndbg/pwndbg) — Python module loaded directly into GDB; provides suite of utilitie, crutches to hack around GDB.
+
 ### Command Line Enumeration and Exploitation Tools
 - `uncompyle6` —
 - `strings` —
+
 ### Enumeration and Exploitation Information and Resources
 - [List of Unicode Characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 - [LD_PRELOAD trick](http://www.goldsborough.me/c/low-level/kernel/2016/08/29/16-48-53-the_-ld_preload-_trick/)
----
+
 
 
 
 ## Appendix
----
 
 ### Unsorted Tools
----
+
 - [pwntools](https://docs.pwntools.com/en/stable/) — Python library for interacting with ctf challenges, focus on pwning.
 - [ffmpeg](https://ffmpeg.org/) — Record, convert, stream audio and video.
----
 
 
 
 ### Command Line Commands
----
+
 - `>` takes the standard output of the command on the left and redirects it to the file on the right.
 - `>>` takes the standard output of the command on the left and *appends* it to the file on the right.
 - `<` takes the standard input from the file on the right and inputs it into the program on the left.
@@ -437,29 +451,29 @@ for entry in data:
 - `source` activates changes in bash profile for current session.
 - `touch` creates a new empty file in the working directory. 
 - `uniq` "unique". Takes a filename or standard input and prints out every line, removing any exact duplicates.
----
 
 
-### Kali Linux
---- 
+
+### Kali Linux 
 - [Kali Tools Documentation](https://www.kali.org/tools/)
----
+
 
 
 ### Windows Subsystem for Linux
----
+
 For information about using Kali via. WSL for the NCL competition, check out [this article from CryptoKait](https://cryptokait.com/2020/08/19/ncl-and-wsl-leaving-the-kali-vm-behind/).
 If you want to install WSL, instructions can be found [here](https://learn.microsoft.com/en-us/windows/wsl/install). 
 The Kali Linux installation on WSL is a [minimum install setup](https://www.kali.org/docs/troubleshooting/common-minimum-setup/). 
 That means you'll probably want to [install Kali Linux Metapackages](https://www.kali.org/docs/general-use/metapackages/).
----
+
+
 
 
 ### Python Virtual Environment
---- 
+ 
 Python documentation on how to create a virtual environment with `venv` can be found [here](https://docs.python.org/3/library/venv.html).
 Information on installing packages with `pip` in a virtual environment can be found [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
----
+
 
 
 
