@@ -25,6 +25,8 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [Online Password Cracking Tools](/#Online-Password-Cracking-Tools)
   - [Command Line Password Cracking Tools](/#Command-Line-Password-Cracking-Tools)
   - [Hashcat](/#Hashcat)
+  - [Wordlists and Rule Lists](/#Wordlists-and-Rule-Lists)
+  - [Password Cracking Information and Resources](/#Password-Cracking-Information-and-Resources)
 - [**Log Analysis**](/#Log-Analysis)
   - [Command Line Log Analysis Tools](/#Command-Line-Log-Analysis-Tools)
   - [Creating Programs to do Log Analysis](/#Creating-Programs-to-do-Log-Analysis)
@@ -202,11 +204,14 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [Rule-based attacks](https://hashcat.net/wiki/doku.php?id=rule_based_attack)
 - [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
 - Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
+
+### Wordlists and Rule Lists
 - [Wordlists in hashcat](https://www.kali.org/tools/wordlists/)
   - To see what wordlists are available: `wordlists -h`
 - [SecLists](https://github.com/danielmiessler/SecLists/tree/master/Passwords) — GitHub Repo full of wordlists.
 - [Wordlists, Password Lists, Dictionaries](https://wiki.skullsecurity.org/index.php/Passwords)
 - [cewl](https://www.kali.org/tools/cewl/) — Useful for generating wordlists.
+- Combine wordlists with hashcat: `/usr/share/hashcat-utils/combinator.bin firstwordlist.txt secondwordlist.txt > combined_wordlist.txt`
 - Rule lists in hashcat: `ls /usr/share/hashcat/rules`
   - Most powerful: `dive.rule`
 
