@@ -48,6 +48,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [**Scanning and Reconnaissance**](/#Scanning-and-Reconnaissance)
   - [Command Line Scanning and Reconnaissance Tools](/#Command-Line-Scanning-and-Reconnaissance-Tools)
   - [Graphical Scanning and Reconnaissance Tools](/#Graphical-Scanning-and-Reconnaissance-Tools)
+  - [Nmap](/#Nmap)
 - [**Web Application Exploitation**](/#Web-Application-Exploitation)
   - [Command Line Web Application Exploitation Tools](/#Command-Line-Web-Application-Exploitation-Tools)
 - [**Enumeration and Exploitation**](/#Enumeration-and-Exploitation)
@@ -227,15 +228,29 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 ### Password Cracking Information and Resources
 - [CryptoKait article: Taking Password Cracking to the Next Level](https://cryptokait.com/2020/09/02/taking-password-cracking-to-the-next-level/)
 - [How to Perform a Rule Based Attack on Hashcat](https://www.4armed.com/blog/hashcat-rule-based-attack/)
-- It may be helpful to run some of these commands in the background.
-  - To run a command in the background, add ampersand to the end of the command:
-    ````bash
-    command &
-    ```
-  - To suppress the `stdout` and `stderr` messages, use:
-    ```bash
-    command > /dev/null 2>&1 &
-    ```
+
+It may be helpful to run some of these commands in the background.
+To run a command in the background, add ampersand to the end of the command:
+```bash
+command &
+```
+To suppress the `stdout` and `stderr` messages, use:
+```bash
+command > /dev/null 2>&1 &
+```
+To display the status of all stoped and background jobs in the current shell session:
+```bash
+jobs -l
+```
+To bring a background process to the foreground, use the `fg` command (or `fg %1` if you have multiple background jobs.
+
+To terminate the background process, use the `kill` command followed by the process ID (which can be obtained through the `jobs -l` command, above. In this example it's 12928):
+```bash
+kill -9 12928
+```
+
+Generally, if connection drops or you exit the shell session, the background process terminates. 
+To keep the process running, use the `disown` command or start the process with the `nohup` command.
 
 
 
