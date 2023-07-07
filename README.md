@@ -35,6 +35,7 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - [General Forensics Tools](/#General-Forensics-Tools)
   - [Steganography Tools](/#Steganography-Tools)
   - [General Forensics Command Line Analysis Tools](/#General-Forensics-Command-Line-Analysis-Tools)
+  - [Binwalk](/#Binwalk)
 - [**Wireless Access Exploitation**](/#Wireless-Access-Exploitation)
   - [Graphical Wireless Access Exploitation Tools](/#Graphical-Wireless-Access-Exploitation-Tools)
   - [Command Line Wireless Access Exploitation Tools](/#Command-Line-Wireless-Access-Exploitation-Tools)
@@ -238,7 +239,7 @@ for entry in data:
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
   - The "Hidden Pixels" analysis option is particularly useful.
-- [Binwalk](https://github.com/ReFirmLabs/binwalk) — Search a binary image for embedded files, executable code.
+- [Binwalk](/#Binwalk) — Search a binary image for embedded files, executable code.
 - [Foremost](https://tools.kali.org/forensics/foremost) — May catch something Binwalk misses.
 - [steghide](https://github.com/StefanoDeVuono/steghide) — Hides and extracts data from files.
 - [zsteg](zsteg ) — Find steganography in PNG and BMP files. 
@@ -266,13 +267,7 @@ for entry in data:
 - [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) — Read, write, edit file metadata.
 - [Exif](http://manpages.ubuntu.com/manpages/trusty/man1/exif.1.html) — Shows EXIF information in JPEG files.
 - `xxd` — Dump file in hex format.
-- [Binwalk](https://github.com/ReFirmLabs/binwalk) — Search a binary image for embedded files, executable code.
-  - Scan a binary file: `binwalk <filename>`
-  - Extract files from a binary, specifying the output directory: `binwalk --extract --directory <output_directory> <filename>`
-  - Recursively extract files from a binary limiting the recursion depth to 2: `binwalk --extract --matryoshka --depth [2] <filename>`
-  - Extract files from a binary with the specified file signature: `binwalk -dd '[png image:png]' <filename>`
-  - Analyze the entropy of a binary, saving the plot with the same name as the binary and .png extension appended: `binwalk --entropy --save <filename>`
-  - Combine entropy, signature, and opcodes analysis in a single command: `binwalk --entropy --signature --opcodes <filename>`
+- [Binwalk](/#Binwalk) — Search a binary image for embedded files, executable code.
 - [Foremost](https://tools.kali.org/forensics/foremost) — May catch something Binwalk misses.
 - [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — Verifies PNG integrity, dump chunk-level info in human-readable form. 
 - [scalpel](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
@@ -285,7 +280,16 @@ for entry in data:
   - `pdfimages -f <number>` specifies the first page to scan.
   - `pdfimages -l <number>` specifies the last page to scan.
   - `pdfimages -j` — Images in DCT format saved as JPEG files; non-DCT images saved in PBM/PGM/PPM format as usual.
-     
+
+### Binwalk
+[Binwalk](https://github.com/ReFirmLabs/binwalk) — Search a binary image for embedded files, executable code.
+- Scan a binary file: `binwalk <filename>`
+- Extract files from a binary, specifying the output directory: `binwalk --extract --directory <output_directory> <filename>`
+- Recursively extract files from a binary limiting the recursion depth to 2: `binwalk --extract --matryoshka --depth [2] <filename>`
+- Extract files from a binary with the specified file signature: `binwalk -dd '[png image:png]' <filename>`
+- Analyze the entropy of a binary, saving the plot with the same name as the binary and .png extension appended: `binwalk --entropy --save <filename>`
+- Combine entropy, signature, and opcodes analysis in a single command: `binwalk --entropy --signature --opcodes <filename>`
+
 
 ## Wireless Access Exploitation
 ---
