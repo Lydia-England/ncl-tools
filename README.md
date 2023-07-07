@@ -267,6 +267,14 @@ Information about these options is found [in the Appendix](/#Background-Commands
   - `cat example.txt | awk '{print #2}'` prints the second column in example.txt.
 - `tail` prints the last several lines of a file.
   - `tail example.txt` prints the last lines of example.txt.
+
+### SQLite
+- [SQLite Browser](https://sqlitebrowser.org/dl/)
+- [`sqlite3 <file.sqlite>`](https://www.sqlite.org/cli.html)
+  - `.tables` to see a list of tables.
+  - `.index` to see index.
+  - `.schema` to see a list of schema.
+  - `.databases`
     
 ### Creating Programs to do Log Analysis
 - `.json` File, Python analysis:
@@ -286,6 +294,7 @@ for entry in data:
   if 'TCP' not in entry['proto']:
     print(entry['alert']['category'])
 ```
+
 
 
 
