@@ -196,10 +196,16 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - `-a 6` — Hybrid Wordlist + Mask
   - `-a 7` — Hybrid Mask + Wordlist
   - `-a 9` — Association 
-- With known format SKY-ABCD-####: `hashcat -m 0 -a 3 hashes.txt SKY-ABCD-?d?d?d?d`
+- With known format SKY-ABCD-####:
+  ```bash
+  hashcat -m 0 -a 3 hashes.txt SKY-ABCD-?d?d?d?d
+  ```
   - `-m 0` for MD5 hashes.
   - `-a 3` for brute force and mask attack mode.
-- Using the rockyou wordlist: `hashcat -m 0 -a 0 hashes.txt rockyou.txt`
+- Using the rockyou wordlist:
+  ```bash
+  hashcat -m 0 -a 0 hashes.txt rockyou.txt
+  ```
 - [Hybrid attacks](https://hashcat.net/wiki/doku.php?id=hybrid_attack)
 - [Rule-based attacks](https://hashcat.net/wiki/doku.php?id=rule_based_attack)
 - [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
@@ -211,14 +217,25 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 - [SecLists](https://github.com/danielmiessler/SecLists/tree/master/Passwords) — GitHub Repo full of wordlists.
 - [Wordlists, Password Lists, Dictionaries](https://wiki.skullsecurity.org/index.php/Passwords)
 - [cewl](https://www.kali.org/tools/cewl/) — Useful for generating wordlists.
-- Combine wordlists with hashcat: `/usr/share/hashcat-utils/combinator.bin firstwordlist.txt secondwordlist.txt > combined_wordlist.txt`
+- Combine wordlists with hashcat:
+  ```bash
+  /usr/share/hashcat-utils/combinator.bin firstwordlist.txt secondwordlist.txt > combined_wordlist.txt
+  ```
 - Rule lists in hashcat: `ls /usr/share/hashcat/rules`
   - Most powerful: `dive.rule`
 
 ### Password Cracking Information and Resources
 - [CryptoKait article: Taking Password Cracking to the Next Level](https://cryptokait.com/2020/09/02/taking-password-cracking-to-the-next-level/)
 - [How to Perform a Rule Based Attack on Hashcat](https://www.4armed.com/blog/hashcat-rule-based-attack/)
-
+- It may be helpful to run some of these commands in the background.
+  - To run a command in the background, add ampersand to the end of the command:
+    ````bash
+    command &
+    ```
+  - To suppress the `stdout` and `stderr` messages, use:
+    ```bash
+    command > /dev/null 2>&1 &
+    ```
 
 
 
@@ -238,8 +255,14 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
   - Usually use this after using `sort`; it only removes adjacent duplicate lines.
 - `grep` "Global Regular Expression Print" searches for text that matches a specific pattern.
   - `grep match example.txt` prints lines that contain the text "match" in example.txt.
-  - grep IP address: `grep -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' example.txt`
-  - grep only valid IP address: `grep -E '^((25[0-5]|2[0-4][0-9]|[1]?[1-9][0-9]?).){3}(25[0-5]|2[0-4][0-9]|[1]?[1-9]?[0-9])$' example.txt`
+  - grep IP address:
+    ```bash
+    grep -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' example.txt
+    ```
+  - grep only valid IP address:
+    ```bash
+    grep -E '^((25[0-5]|2[0-4][0-9]|[1]?[1-9][0-9]?).){3}(25[0-5]|2[0-4][0-9]|[1]?[1-9]?[0-9])$' example.txt
+    ```
     - `ping` to remove leading zeros.
 - `wc` "Word Count" gets a line count (followed by a word count and a byte count) of a file or text stream.
   - `wc example.txt` prints the number of lines, words, bytes in example.txt.
@@ -351,12 +374,30 @@ for entry in data:
 
 ### Binwalk
 [Binwalk](https://github.com/ReFirmLabs/binwalk) — Search a binary image for embedded files, executable code.
-- Scan a binary file: `binwalk <filename>`
-- Extract files from a binary, specifying the output directory: `binwalk --extract --directory <output_directory> <filename>`
-- Recursively extract files from a binary limiting the recursion depth to 2: `binwalk --extract --matryoshka --depth [2] <filename>`
-- Extract files from a binary with the specified file signature: `binwalk -dd '[png image:png]' <filename>`
-- Analyze the entropy of a binary, saving the plot with the same name as the binary and .png extension appended: `binwalk --entropy --save <filename>`
-- Combine entropy, signature, and opcodes analysis in a single command: `binwalk --entropy --signature --opcodes <filename>`
+- Scan a binary file:
+  ```bash
+  binwalk <filename>
+  ```
+- Extract files from a binary, specifying the output directory:
+  ```bash
+  binwalk --extract --directory <output_directory> <filename>
+  ```
+- Recursively extract files from a binary limiting the recursion depth to 2:
+  ```bash
+  binwalk --extract --matryoshka --depth [2] <filename>
+  ```
+- Extract files from a binary with the specified file signature:
+  ```bash
+  binwalk -dd '[png image:png]' <filename>
+  ```
+- Analyze the entropy of a binary, saving the plot with the same name as the binary and .png extension appended:
+  ```bash
+  binwalk --entropy --save <filename>
+  ```
+- Combine entropy, signature, and opcodes analysis in a single command:
+  ```bash
+  binwalk --entropy --signature --opcodes <filename>
+  ```
 
 ### Forensics Resources and Information
 - [Decoding Identifying Printer Information](https://www.eff.org/files/filenode/printers/ccc.pdf)
@@ -390,19 +431,7 @@ for entry in data:
 ## Scanning and Reconnaissance
 
 ### Command Line Scanning and Reconnaissance Tools
-- [Nmap](https://www.kali.org/tools/nmap/) — "Network Mapper", a network scanning tool.
-  - Ping scan: `nmap -sp 192.168.1.1/24`
-  - Scan a single host: `nmap scanme.nmap.org`
-  - Stealth scan: `nmap -sS scanme.nmap.org`
-  - Version scan: `nmap -sV scanme.nmap.org`
-  - OS scanning: `nmap -sV scanme.nmap.org`
-  - Aggressive scan: `nmap -A scanme.nmap.org`
-  - Scanning multiple hosts (several approaches)
-  - Port scanning: `nmap -p 973 192.164.0.1`
-  - Port scanning for information about a particular type of connection (here, TCP connection): `nmap -p T:7777, 973 192.164.0.1`
-  - Range of ports: `nmap -p 76-973 192.164.0.1`
-  - Top Ports: `nmap --top-ports 10 scanme.nmap.org`
-  - Scanning from a file with a list of IP addresses: `nmap -iL /input_ips.txt`
+- [Nmap](/#Nmap)
 - `nc` —
 - `amap` — 
 - `dirbust/dirb/dir` —
@@ -414,6 +443,53 @@ for entry in data:
 ### Graphical Scanning and Reconnaissance Tools
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
 
+### Nmap
+[Nmap](https://www.kali.org/tools/nmap/) — "Network Mapper", a network scanning tool.
+- Ping scan:
+  ```bash
+  nmap -sp 192.168.1.1/24
+  ```
+- Scan a single host:
+  ```bash
+  nmap scanme.nmap.org
+  ```
+- Stealth scan:
+  ```bash
+  nmap -sS scanme.nmap.org
+  ```
+- Version scan:
+  ```bash
+  nmap -sV scanme.nmap.org
+  ```
+- OS scanning:
+  ```bash
+  nmap -sV scanme.nmap.org
+  ```
+- Aggressive scan:
+  ```bash
+  nmap -A scanme.nmap.org
+  ```
+- Scanning multiple hosts (several approaches)
+- Port scanning:
+  ```bash
+  nmap -p 973 192.164.0.1
+  ```
+- Port scanning for information about a particular type of connection (here, TCP connection):
+  ```bash
+  nmap -p T:7777, 973 192.164.0.1
+  ```
+- Range of ports:
+  ```bash
+  nmap -p 76-973 192.164.0.1
+  ```
+- Top Ports:
+  ```bash
+  nmap --top-ports 10 scanme.nmap.org
+  ```
+- Scanning from a file with a list of IP addresses:
+  ```bash
+  nmap -iL /input_ips.txt
+  ```
 
 
 
