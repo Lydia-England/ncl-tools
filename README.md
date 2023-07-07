@@ -11,51 +11,51 @@ This is an unofficial, non-exhaustive list of tools I've found useful during the
 
 ## Categories
 ---
-- [Open Source Intelligence](/#Open-Source-Intelligence)
+- [**Open Source Intelligence**](/#Open-Source-Intelligence)
   - [OSINT Web Resources](/#OSINT-Web-Resources)
   - [Command Line OSINT Tools](/#Command-Line-OSINT-Tools)
   - [OSINT Misc. Information and Resources](/#OSINT-Misc.-Information-and-Resources)
-- [Cryptography](/#Cryptography)
+- [**Cryptography**](/#Cryptography)
   - [Online Cipher Identification and Decryption Tools](/#Online-Cipher-Identification-and-Decryption-Tools)
-  - [Online Steganography Tools](#/Online-Steganography-Tools)
-  - [Online RSA Decryption Tools](#/Online-RSA-Decryption-Tools)
-  - [Command Line Cryptography Tools](#/Command-Line-Cryptography-Tools)
+  - [Online Steganography Tools](/#Online-Steganography-Tools)
+  - [Online RSA Decryption Tools](/#Online-RSA-Decryption-Tools)
+  - [Command Line Cryptography Tools](/#Command-Line-Cryptography-Tools)
   - [Cryptography Software](/#Cryptography-Software)
   - [Additional Resources](/#Additional-Resources)
-- [Password Cracking](/#Password-Cracking)
+- [**Password Cracking**](/#Password-Cracking)
   - [Online Password Cracking Tools](/#Online-Password-Cracking-Tools)
   - [Command Line Password Cracking Tools](/#Command-Line-Password-Cracking-Tools)
   - [Hashcat](/#Hashcat)
-- [Log Analysis](/#Log-Analysis)
+- [**Log Analysis**](/#Log-Analysis)
   - [Command Line Log Analysis Tools](/#Command-Line-Log-Analysis-Tools)
   - [Creating Programs to do Log Analysis](/#Creating-Programs-to-do-Log-Analysis)
 - [Network Traffic Analysis](/#Network-Traffic-Analysis)
   - [Command Line Network Traffic Analysis Tools](/#Command-Line-Network-Traffic-Analysis)
-- [Forensics](/#Forensics)
+- [**Forensics**](/#Forensics)
   - [General Forensics Tools](/#General-Forensics-Tools)
   - [Steganography Tools](/#Steganography-Tools)
   - [General Forensics Command Line Analysis Tools](/#General-Forensics-Command-Line-Analysis-Tools)
-- [Wireless Access Exploitation](/#Wireless-Access-Exploitation)
+- [**Wireless Access Exploitation**](/#Wireless-Access-Exploitation)
   - [Graphical Wireless Access Exploitation Tools](/#Graphical-Wireless-Access-Exploitation-Tools)
   - [Command Line Wireless Access Exploitation Tools](/#Command-Line-Wireless-Access-Exploitation-Tools)
   - [Misc. Wireless Access Exploitation Tools](/#Misc.-Wireless-Access-Exploitation-Tools)
-- [Scanning and Recon](/#Scanning-and-Recon)
+- [**Scanning and Reconnaissance**](/#Scanning-and-Reconnaissance)
   - [Command Line Scanning and Reconnaissance Tools](/#Command-Line-Scanning-and-Reconnaissance-Tools)
   - [Graphical Scanning and Reconnaissance Tools](/#Graphical-Scanning-and-Reconnaissance-Tools)
-- [Web Application Exploitation](/#Web-Application-Exploitation)
+- [**Web Application Exploitation**](/#Web-Application-Exploitation)
   - [Command Line Web Application Exploitation Tools](/#Command-Line-Web-Application-Exploitation-Tools)
-- [Enumeration and Exploitation](/#Enumeration-and-Exploitation)
+- [**Enumeration and Exploitation**](/#Enumeration-and-Exploitation)
   - [Command Line Enumeration and Exploitation Tools](/#Command-Line-Enumeration-and-Exploitation-Tools)
   - [Enumeration and Exploitation Information and Resources](/#Enumeration-and-Exploitation-Information-and-Resources)
-- [Appendix](/#Appendix)
-  - [Unsorted Tools](#/Unsorted-Tools)
+- [**Appendix**](/#Appendix)
+  - [Unsorted Tools](/#Unsorted-Tools)
   - [Command Line Commands](/#Command-Line-Commands)
-  - [Kali Linux](#/Kali-Linux)
-  - [Windows Subsystem for Linux](#/Windows-Subsystem-for-Linux)
-  - [Python Virtual Environment](#/Python-Virtual-Environment)
-  - [Vim](#/Vim)
-  - [Additional Resources](#/Additional-Resources)
-  - [NCL Strategies](#/NCL-Strategies)
+  - [Kali Linux](/#Kali-Linux)
+  - [Windows Subsystem for Linux](/#Windows-Subsystem-for-Linux)
+  - [Python Virtual Environment](/#Python-Virtual-Environment)
+  - [Vim](/#Vim)
+  - [Additional Resources](/#Additional-Resources)
+  - [NCL Strategies](/#NCL-Strategies)
 
 
 ## Open Source Intelligence
@@ -231,7 +231,6 @@ for entry in data:
 - [HexEd.it](https://hexed.it/) — Online hex editor
 - [Autopsy Forensic Browser](https://www.kali.org/tools/autopsy/) — Digital forensics platform
   - [Autopsy Tutorial (blog post)](https://cryptokait.com/2021/03/08/digging-into-autopsy-forensics/)
-- [7-Zip](https://www.7-zip.org/) — File archiver with a high compression ratio (and opens just about anything)
 - [pspy](https://github.com/DominicBreuker/pspy) — Low privilege process snooper.
 - [Audacity](http://sourceforge.net/projects/audacity/) — Analyze sound files.
   
@@ -251,8 +250,15 @@ for entry in data:
 - [stegdetect](https://linux.die.net/man/1/stegdetect) — Statistically determine if steganograhpic content is present and how.
 - [Snow](https://sbmlabs.com/notes/snow_whitespace_steganography_tool) — Whitespace steganography tool
 - [StegCracker](https://github.com/Paradoxis/StegCracker) — Brute-force utility to uncover hidden data inside files.
-  
 
+### Unzip, Extract Files
+- [7-Zip](https://www.7-zip.org/) — File archiver with a high compression ratio (and opens just about anything)
+- `unzip filename.docx -d out` to unzip .docx files to see what's inside.
+- `gzip -d file.gz` (or `gzip -dk file.gz` to keep compressed file) — Unzip `gz` File
+- `gunzip file.gz` — Unzip `gz` file (this command is essentially an alias to `gzip -d`.
+- `tar -xf archive.tar.gz` to extract a `tar.gz` file.
+- `unrar` —
+  
 ### General Forensics Command Line Analysis Tools
 - `file` — Determine the type of a file.
   - `file -i` — View mime type of file.
@@ -260,14 +266,25 @@ for entry in data:
 - [Exif Tool](http://www.sno.phy.queensu.ca/~phil/exiftool/) — Read, write, edit file metadata.
 - [Exif](http://manpages.ubuntu.com/manpages/trusty/man1/exif.1.html) — Shows EXIF information in JPEG files.
 - `xxd` — Dump file in hex format.
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) — Search a binary image for embedded files, executable code.
+  - Scan a binary file: `binwalk <filename>`
+  - Extract files from a binary, specifying the output directory: `binwalk --extract --directory <output_directory> <filename>`
+  - Recursively extract files from a binary limiting the recursion depth to 2: `binwalk --extract --matryoshka --depth [2] <filename>`
+  - Extract files from a binary with the specified file signature: `binwalk -dd '[png image:png]' <filename>`
+  - Analyze the entropy of a binary, saving the plot with the same name as the binary and .png extension appended: `binwalk --entropy --save <filename>`
+  - Combine entropy, signature, and opcodes analysis in a single command: `binwalk --entropy --signature --opcodes <filename>`
+- [Foremost](https://tools.kali.org/forensics/foremost) — May catch something Binwalk misses.
 - [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — Verifies PNG integrity, dump chunk-level info in human-readable form. 
 - [scalpel](https://www.kali.org/tools/scalpel/#scalpel) — fast file carver that reads database of header and footer definitions and extracts matching files from a set of image files or raw device files.
-- `unrar` —
-- `unzip filename.docx -d out` to unzip .docx files to see what's inside.
 - [identify](https://imagemagick.org/script/identify.php) — Image format and characteristics
   - Supported file formats include JPEG, PNG, GIF, TIFF, PDF.
 - [Extundelete](http://extundelete.sourceforge.net/) — Recover lost data from mountable images.
-- [PDF Streams Inflater](http://malzilla.sourceforge.net/downloads.html) Find, extract zlib files compressed in PDF files.
+- [PDF Streams Inflater](http://malzilla.sourceforge.net/downloads.html) — Find, extract zlib files compressed in PDF files.
+- [pdfimages](https://www.xpdfreader.com/pdfimages-man.html) — PDF Image Extractor
+  - `pdfimages` saves images from PDF as PPM, PGM, PBM, or JPEG files.
+  - `pdfimages -f <number>` specifies the first page to scan.
+  - `pdfimages -l <number>` specifies the last page to scan.
+  - `pdfimages -j` — Images in DCT format saved as JPEG files; non-DCT images saved in PBM/PGM/PPM format as usual.
      
 
 ## Wireless Access Exploitation
