@@ -10,7 +10,7 @@ Information on upcoming NCL Competitions can be found [here](https://nationalcyb
 This is an unofficial, non-exhaustive list of tools I've found useful during the competition or that were recommended to me.
 
 ## Categories
-- [**Open Source Intelligence**](/osint-tools#Open-Source-Intelligence)
+- [**Open Source Intelligence**](/tools/osint-tools#Open-Source-Intelligence)
   - [OSINT Web Resources](/#OSINT-Web-Resources)
   - [Command Line OSINT Tools](/#Command-Line-OSINT-Tools)
   - [OSINT Misc. Information and Resources](/#OSINT-Misc.-Information-and-Resources)
