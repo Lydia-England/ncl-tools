@@ -404,7 +404,7 @@ for entry in data:
 
 ### Forensics Resources and Information
 - [Decoding Identifying Printer Information](https://www.eff.org/files/filenode/printers/ccc.pdf)
-
+- [Find Hidden Hyperlinks in Word Document](https://www.techwalla.com/articles/how-to-find-hyperlinks-in-a-word-document)
 
 
 ## Wireless Access Exploitation
