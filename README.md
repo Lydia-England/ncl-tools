@@ -6,8 +6,7 @@ An article from the Applied Cybersecurity Division at NIST describes the [Nation
 
 Information on upcoming NCL Competitions can be found [here](https://nationalcyberleague.org/competition).
 
-
-This is an unofficial, non-exhaustive list of tools I've found useful during the competition or that were recommended to me.
+Click on the links below to view my lists of tools for each category!
 
 ## Categories
 - [**Open Source Intelligence**](/tools/osint-tools.md#Open-Source-Intelligence)
