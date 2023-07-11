@@ -27,9 +27,13 @@
   ```bash
   nmap scanme.nmap.org
   ```
-- Stealth scan:
+- Stealth scan (TCP SYN scan):
   ```bash
   nmap -sS scanme.nmap.org
+  ```
+- UDP scan:
+  ```bash
+  nmap -sU scanme.nmap.org
   ```
 - Version scan:
   ```bash
@@ -51,6 +55,9 @@
 - Port scanning for information about a particular type of connection (here, TCP connection):
   ```bash
   nmap -p T:7777, 973 192.164.0.1
+- More options: 
+  - `-S` to spoof an IP address
+  - `-6` to conduct an IPv6 scan
 
 
 ## Acronyms and Definitions
