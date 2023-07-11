@@ -63,6 +63,13 @@
   - `-6` to conduct an IPv6 scan
 
 
+## OpenSSL
+- [OpenSSL Documentation](https://www.openssl.org/docs/manmaster/man1/pkcs7.html)
+- Check SSL certificate expiration date
+  ```bash
+  cat cert.cer | openssl x509 -noout -enddate
+  ```
+
 ## HTTP response status codes
 - Informational response (100-199)
 - Successful response (200-299)
@@ -77,3 +84,5 @@
 - AS: Autonomous System
 - IP: Internet Protocol
 - RIR: Regional Internet Registry
+- SSL: Secure Sockets Layer
+  - CN: SSL Certificate Common Name (a.k.a. Fully Qualified Domain Name (FQDN))
