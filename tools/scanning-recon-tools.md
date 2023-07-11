@@ -55,9 +55,19 @@
 - Port scanning for information about a particular type of connection (here, TCP connection):
   ```bash
   nmap -p T:7777, 973 192.164.0.1
+  ```
 - More options: 
   - `-S` to spoof an IP address
   - `-6` to conduct an IPv6 scan
+
+
+## HTTP response status codes
+- Informational response (100-199)
+- Successful response (200-299)
+- Redirection message (300-399)
+- Client error response (400-499)
+  - `403 Forbidden`: The client doesn't have rights to access the content; it's unauthorized, so the server is refusing to give the requested resource. Unlike `401 Unauthorized`, the client's identity is known to the server.
+- Server error response (500-599)
 
 
 ## Acronyms and Definitions
