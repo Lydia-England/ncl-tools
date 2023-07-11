@@ -3,6 +3,7 @@
 ## Online Scanning and Reconnaissance Tools
 - [ICANN registration data lookup tool](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwig88e15oWAAxVgIjQIHZdXCMMQFnoECA8QAQ&url=https%3A%2F%2Flookup.icann.org%2F&usg=AOvVaw0AnKZxWMO4k3aXI_DKuq0f&opi=89978449) — WHOIS search tool
 - [Autonomous System Lookup (AS/ASN/IP)](https://hackertarget.com/as-ip-lookup/)
+- [Website to IP Lookup](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiA3I6ZjIeAAxUZO0QIHXkSBSEQFnoECA0QAQ&url=https%3A%2F%2Fwww.nslookup.io%2Fwebsite-to-ip-lookup%2F&usg=AOvVaw169x1zRLKwwWjrdHJwkaCZ&opi=89978449)
 
 ## Command Line Scanning and Reconnaissance Tools
 - [Nmap](/#Nmap)
@@ -13,6 +14,7 @@
 - `telnet` —
 - [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
+- `wget`
 
 ## Graphical Scanning and Reconnaissance Tools
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
