@@ -1,5 +1,9 @@
 # Scanning and Reconnaissance
 
+## Online Scanning and Reconnaissance Tools
+- [ICANN registration data lookup tool](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwig88e15oWAAxVgIjQIHZdXCMMQFnoECA8QAQ&url=https%3A%2F%2Flookup.icann.org%2F&usg=AOvVaw0AnKZxWMO4k3aXI_DKuq0f&opi=89978449) — WHOIS search tool
+- [Autonomous System Lookup (AS/ASN/IP)](https://hackertarget.com/as-ip-lookup/)
+
 ## Command Line Scanning and Reconnaissance Tools
 - [Nmap](/#Nmap)
 - `nc` —
@@ -47,3 +51,10 @@
 - Port scanning for information about a particular type of connection (here, TCP connection):
   ```bash
   nmap -p T:7777, 973 192.164.0.1
+
+
+## Acronyms and Definitions
+- ASN: Autonomous System Number
+- AS: Autonomous System
+- IP: Internet Protocol
+- RIR: Regional Internet Registry
