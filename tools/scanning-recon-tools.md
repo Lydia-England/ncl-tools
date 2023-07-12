@@ -17,26 +17,68 @@
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
 - `wget`
 
+
+
 ## Graphical Scanning and Reconnaissance Tools
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
 
+
+
 ## Nslookup
 - Interactive or non-interactive modes.
+
 Syntax:
 ```bash
 nslookup [options] [website or IP address]
 ```
-- `nslookup <website>` to find IP address of a website.
+
+Running without options should return the IP address associated with a website (or website associated with IP address).
+
 Nslookup options:
 - `-domain=[domain name]` option to change the default DNS name.
+- `-debug` option to show debugging information.
+- `-timeout=[seconds]` option to specify the time allowed for the server to respond.
 - `-port=[port number]` option to specify the port for queries. Default port number is 53.
 - `-type=a` to view information about the DNS A address records.
 - `-type=any` to view all available records.
 - `-type=hinfo` to view hardware-related information about the host.
-- `-type=mx` to view Mail Exchange server information.
+- `-type=mx` to view Mail Exchange (MX) server information.
 - `-type=ns` to view Name Server (NS) records.
 - `-type=ptr` to view Pointer records. Used in reverse DNS lookups.
 - `-type=soa` to view Start of Authority records.
+
+How to use nslookup:
+- View NS records for a domain:
+  ```bash
+  nslookup -type=ns [domain name]
+  ```
+- View MX (Mail Exchange server data) records for a domain:
+  ```bash
+  nslookup -type=mx [domain name]
+  ```
+- Perform a reverse DNS lookup (find domain name associated with IP address): 
+  ```bash
+  nslookup [domain name]
+  ```
+- View all available logs: 
+  ```bash
+  nslookup -type=any [domain name]
+  ```
+
+
+## Dig
+[Dig documentation found here](https://linux.die.net/man/1/dig).
+Dig (domain information groper) is a flexible tool for interrogating DNS name servers.
+Basic usage looks like the following:
+```bash 
+dig @server name type
+```
+where `server` is the name or IP address of the name server to query. 
+This can be an IPv4 address in dotted-decimal notation or an IPv6 address in colon-delimited notation.
+`name` is the name of the resource record that is to be looked up.
+`type` indicates what type of query is required.
+Valid query types include: `A`, `AAAA`, `MX`, `SIG`, `SOA`, `TXT`, etc.
+
 
 
 ## Nmap
@@ -44,6 +86,10 @@ Nslookup options:
 - Ping scan:
   ```bash
   nmap -sp 192.168.1.1/24
+  ```
+- No ping (skip host discovery stage) 
+  ```bash
+  nmap -Pn 192.168.1.1/24
   ```
 - Scan a single host:
   ```bash
@@ -83,12 +129,14 @@ Nslookup options:
   - `-6` to conduct an IPv6 scan
 
 
+
 ## OpenSSL
 - [OpenSSL Documentation](https://www.openssl.org/docs/manmaster/man1/pkcs7.html)
 - Check SSL certificate expiration date
   ```bash
   cat cert.cer | openssl x509 -noout -enddate
   ```
+
 
 ## HTTP response status codes
 - Informational response (100-199)
@@ -99,6 +147,15 @@ Nslookup options:
 - Server error response (500-599)
 
 
+## DNS Record Types
+- A records resolve to IPv4 addresses.
+- AAAA records resolve to IPv6 addresses.
+- CNAME records resolve to another domain name (like a subdomain).
+- MX records resolve to the address of the servers that handle the email for the domain you are querying.
+- TXT records are free text fields where any text-based data can be stored.
+
+
+
 ## Acronyms and Definitions
 - ASN: Autonomous System Number
 - AS: Autonomous System
@@ -107,3 +164,5 @@ Nslookup options:
 - RIR: Regional Internet Registry
 - SSL: Secure Sockets Layer
   - CN: SSL Certificate Common Name (a.k.a. Fully Qualified Domain Name (FQDN))
+- TLD: Top-Level Domain
+- TTL: Time to live (also known as "hop limit") - specifies how long a DNS record should be cached for.
