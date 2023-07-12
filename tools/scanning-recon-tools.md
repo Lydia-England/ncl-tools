@@ -7,6 +7,7 @@
 
 ## Command Line Scanning and Reconnaissance Tools
 - [Nmap](/#Nmap)
+- [Nslookup](/#Nslookup)
 - `nc` —
 - `amap` — 
 - `dirbust/dirb/dir` —
@@ -18,6 +19,20 @@
 
 ## Graphical Scanning and Reconnaissance Tools
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
+
+## Nslookup
+- Interactive or non-interactive modes.
+- `nslookup <website>` to find IP address of a website.
+- `-domain=[domain name]` option to change the default DNS name.
+- `-port=[port number]` option to specify the port for queries. Default port number is 53.
+- `-type=a` to view information about the DNS A address records.
+- `-type=any` to view all available records.
+- `-type=hinfo` to view hardware-related information about the host.
+- `-type=mx` to view Mail Exchange server information.
+- `-type=ns` to view Name Server (NS) records.
+- `-type=ptr` to view Pointer records. Used in reverse DNS lookups.
+- `-type=soa` to view Start of Authority records.
+
 
 ## Nmap
 [Nmap](https://www.kali.org/tools/nmap/) — "Network Mapper", a network scanning tool.
@@ -82,6 +97,7 @@
 ## Acronyms and Definitions
 - ASN: Autonomous System Number
 - AS: Autonomous System
+- DNS: Domain Name System
 - IP: Internet Protocol
 - RIR: Regional Internet Registry
 - SSL: Secure Sockets Layer
