@@ -162,6 +162,7 @@ Valid query types include: `A`, `AAAA`, `MX`, `SIG`, `SOA`, `TXT`, etc.
 - DNS: Domain Name System
 - IP: Internet Protocol
 - RIR: Regional Internet Registry
+- SOA: Start of Authority. DNS SOA record used to designate the primary name server and administrator responsible for a zone.
 - SSL: Secure Sockets Layer
   - CN: SSL Certificate Common Name (a.k.a. Fully Qualified Domain Name (FQDN))
 - TLD: Top-Level Domain
