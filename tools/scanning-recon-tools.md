@@ -146,6 +146,14 @@ Valid query types include: `A`, `AAAA`, `MX`, `SIG`, `SOA`, `TXT`, etc.
 - TXT records are free text fields where any text-based data can be stored.
 
 
+## SSH Key Pairs
+SSH employs public key cryptography (a.k.a. asymmetric cryptography), which requires two separate keys: one private key, and one public key.
+Together, the public and private key compose a key pair. 
+In SSH, the public key cryptography is used in both directions (client to server and server to client), so two key pairs are used. 
+One key pair is the host (server) key; one is the user (client) key.
+[This article](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiU2L_lgoqAAxUOHzQIHQojDF8QFnoECAgQAQ&url=https%3A%2F%2Fdocs.oracle.com%2Fen%2Fcloud%2Fcloud-at-customer%2Focc-get-started%2Fgenerate-ssh-key-pair.html&usg=AOvVaw0-nDex6Sg1StUuJy8sZon5&opi=89978449) details how to generate an SSH Key Pair. 
+
+
 
 ## Acronyms and Definitions
 - ASN: Autonomous System Number
