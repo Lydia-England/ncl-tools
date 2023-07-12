@@ -22,7 +22,12 @@
 
 ## Nslookup
 - Interactive or non-interactive modes.
+Syntax:
+```bash
+nslookup [options] [website or IP address]
+```
 - `nslookup <website>` to find IP address of a website.
+Nslookup options:
 - `-domain=[domain name]` option to change the default DNS name.
 - `-port=[port number]` option to specify the port for queries. Default port number is 53.
 - `-type=a` to view information about the DNS A address records.
