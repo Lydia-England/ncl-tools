@@ -20,11 +20,12 @@ Click on the links below to view my lists of tools for each category!
 - [**Web Application Exploitation**](/tools/web-app-exploit.md#Web-Application-Exploitation)
 - [**Enumeration and Exploitation**](/tools/enumeration-exploit-tools.md#Enumeration-and-Exploitation)
 - [**Misc. and Unsorted Tools**](/tools/misc-tools.md)
+
 ## Appendix
-- [Command Line Commands](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/cmd-line-cmds.md)
-- [Environment](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/environment.md)
-- [Resources](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/resources.md)
-- [NCL Strategies](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/ncl-strategies.md)
+- [Command Line Commands](/appendix/cmd-line-cmds.md)
+- [Environment](/appendix/environment.md)
+- [Resources](/appendix/resources.md)
+- [NCL Strategies](/appendix/ncl-strategies.md)
 
 
 
