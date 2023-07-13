@@ -19,7 +19,7 @@ Click on the links below to view my lists of tools for each category!
 - [**Forensics**](/tools/forensics-tools.md#Forensics)
 - [**Wireless Access Exploitation**](/tools/wireless-access-exploit-tools.md#Wireless-Access-Exploitation)
 - [**Scanning and Reconnaissance**](/tools/scanning-recon-tools.md#Scanning-and-Reconnaissance)
-- [**Web Application Exploitation**](/tools/web-app-exploit.md#Web-Application-Exploitation)
+- [**Web Application Exploitation**](/tools/web-app-exploit-tools.md#Web-Application-Exploitation)
 - [**Enumeration and Exploitation**](/tools/enumeration-exploit-tools.md#Enumeration-and-Exploitation)
 - [**Misc. and Unsorted Tools**](/tools/misc-tools.md)
 
