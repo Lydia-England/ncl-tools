@@ -23,7 +23,8 @@ Commonly used dCode cipher tools:
 - [Polybius Square Cipher](https://www.cachesleuth.com/polybiussquare.html)
 - [Five Needle Telegraph Code](https://www.cachesleuth.com/fiveneedletelegraph.html)
 - [ASCII Shift Cipher](https://www.dcode.fr/ascii-shift-cipher)
-- [rot8000 Cipher](https://rot8000.com/Index) — "rotate alphabet 0x8000 places", Caesar Shift for Unicode.
+- [rot8000 Cipher](https://rot8000.com/Index) 
+  - "rotate alphabet 0x8000 places", Caesar Shift for Unicode.
 
 
 
@@ -42,9 +43,13 @@ Commonly used dCode cipher tools:
 
 
 ## Misc. Other decoders, etc.
-- [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli decoder
-- [CyberChef](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwijlaDt3oyAAxWxGjQIHXlgA28QFnoECA4QAQ&url=https%3A%2F%2Fgchq.github.io%2FCyberChef%2F&usg=AOvVaw3cJhXGWs_4gKkmjmhQLSNC&opi=89978449) — Web app for encryption, encoding, compression, and data analysis. Build "recipes" to analyze data.
-- [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online
+- [CacheSleuth](https://www.cachesleuth.com/multidecoder/) 
+  - Mutli decoder
+- [CyberChef](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwijlaDt3oyAAxWxGjQIHXlgA28QFnoECA4QAQ&url=https%3A%2F%2Fgchq.github.io%2FCyberChef%2F&usg=AOvVaw3cJhXGWs_4gKkmjmhQLSNC&opi=89978449) 
+  - Web app for encryption, encoding, compression, and data analysis. 
+  - Build "recipes" to analyze data.
+- [cryptii](https://cryptii.com/) 
+  - Modular conversion, encoding, and encryption online
 - [List of Online Tools for Ciphers and Codes](https://rumkin.com/tools/cipher/)
 
 
