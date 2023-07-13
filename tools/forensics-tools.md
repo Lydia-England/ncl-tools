@@ -11,10 +11,10 @@
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
   - The "Hidden Pixels" analysis option is particularly useful.
-- [Binwalk](/#Binwalk) — Search a binary image for embedded files, executable code.
+- Binwalk — Search a binary image for embedded files, executable code (described below). 
 - [Foremost](https://tools.kali.org/forensics/foremost) — May catch something Binwalk misses.
 - [steghide](https://github.com/StefanoDeVuono/steghide) — Hides and extracts data from files.
-- [zsteg](zsteg ) — Find steganography in PNG and BMP files. 
+- zsteg — Find steganography in PNG and BMP files. 
   - `zsteg -a` runs every detection method on the given file.
   - `zsteg -E` extracts data with the given payload.
 - [stegsolve](https://github.com/zardus/ctf-tools/tree/master/stegsolve) — Can be used to find hidden information in files.
