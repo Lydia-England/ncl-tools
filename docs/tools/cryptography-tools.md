@@ -85,16 +85,22 @@ Commonly used dCode cipher tools:
 
 
 ## Command Line Stego Tools
-- [Identify](https://linux.die.net/man/1/identify) — 
-  - 
-- [Steghide](https://www.kali.org/tools/steghide/) — **JPEG**, **BMP**, **WAV**, **AU**
-- [Zsteg](https://github.com/zed-0xff/zsteg) — **PNG**, **BMP**
-  - Detect stegano-hidden data in PNG and BMP
-- [stegoVeritas]() — **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
-- [Stegpy](https://github.com/dhsdshdhk/stegpy) — **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
-  - Encoding information in image, audio files
-- [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — **PNG**
-  - Get details on a PNG file (or find out if it's actually something else)
+- [Identify](https://linux.die.net/man/1/identify) 
+  - Describes format and characteristics of one or more image files.
+  - Reports if an image is incomplete or corrupt. 
+  - Member of the [imagemagick](https://linux.die.net/man/1/imagemagick) suite of tools.
+- [Steghide](https://www.kali.org/tools/steghide/) 
+  - Supported formats: **JPEG**, **BMP**, **WAV**, **AU**
+- [Zsteg](https://github.com/zed-0xff/zsteg) 
+  - Supported formats: **PNG**, **BMP**
+  - Detect stegano-hidden data in PNG and BMP.
+- [stegoVeritas]() 
+  - Supported formats: **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
+- [Stegpy](https://github.com/dhsdshdhk/stegpy) 
+  - Supported formats: **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
+  - Encoding information in image, audio files.
+- [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) 
+  - Get details on a PNG file (or find out if it's actually something else).
 
 
 ## Fast Fouier Transform (FFT) Steganography Tools
@@ -103,9 +109,9 @@ Commonly used dCode cipher tools:
 - [Ejectamenta](https://www.ejectamenta.com/Fourifier-fullscreen/) 
   - Online FFT Tool
 - [FFTStegPic](https://github.com/0xcomposure/FFTStegPic) 
-  - Python script for digital image stego with FFT
+  - Python script for digital image stego with FFT.
 - opencv-python 
-  - Find hidden content using Fast Fourier Transform (FFT)
+  - Find hidden content using Fast Fourier Transform (FFT).
 
 
 ## Audio and Video Stego Tools
