@@ -49,7 +49,6 @@ Commonly used dCode cipher tools:
 - [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli decoder
 - [CyberChef](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwijlaDt3oyAAxWxGjQIHXlgA28QFnoECA4QAQ&url=https%3A%2F%2Fgchq.github.io%2FCyberChef%2F&usg=AOvVaw3cJhXGWs_4gKkmjmhQLSNC&opi=89978449) — Web app for encryption, encoding, compression, and data analysis. Build "recipes" to analyze data.
 - [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online
-
 - [List of Online Tools for Ciphers and Codes](https://rumkin.com/tools/cipher/)
 
 
@@ -79,16 +78,14 @@ Commonly used dCode cipher tools:
 ## Command Line Stego Tools
 - [Identify](https://linux.die.net/man/1/identify) — 
   - 
-- [Steghide](https://www.kali.org/tools/steghide/) — 
-  - **JPEG**, **BMP**, **WAV**, **AU**
-- [Zsteg](https://github.com/zed-0xff/zsteg) — Detect stegano-hidden data in PNG and BMP
-  - **PNG**, **BMP**
-- [stegoVeritas]() — 
-  - **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
-- [Stegpy](https://github.com/dhsdshdhk/stegpy) — Encoding information in information in image, audio files
-  - **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
-- [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — Get details on a PNG file (or find out if it's actually something else)
-  - **PNG**
+- [Steghide](https://www.kali.org/tools/steghide/) — **JPEG**, **BMP**, **WAV**, **AU**
+- [Zsteg](https://github.com/zed-0xff/zsteg) — **PNG**, **BMP**
+  - Detect stegano-hidden data in PNG and BMP
+- [stegoVeritas]() — **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
+- [Stegpy](https://github.com/dhsdshdhk/stegpy) — **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
+  - Encoding information in image, audio files
+- [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — **PNG**
+  - Get details on a PNG file (or find out if it's actually something else)
 
 
 ## Fast Fouier Transform (FFT) Steganography Tools
