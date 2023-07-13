@@ -12,9 +12,12 @@
 # Cipher Identification and Decryption Tools
 ---
 
-## dcode
-dcode.fr is a collection of hundreds of tools to help solve ciphers, codes, puzzles, etc. 
-Check out the [online dcode Cipher Identifier](https://www.dcode.fr/cipher-identifier) if you're not sure how a message is encrypted. 
+## dCode
+dCode.fr is a collection of hundreds of tools to help solve ciphers, codes, puzzles, etc. 
+Check out the [online dCode Cipher Identifier](https://www.dcode.fr/cipher-identifier) if you're not sure how a message is encrypted. 
+Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-list).
+
+Commonly used dCode cipher tools: 
 - [Caesar Cipher](https://www.dcode.fr/caesar-cipher)
 - [Morse Code Translator](https://morsedecoder.com/)
 - [Letter Number Code](https://www.dcode.fr/letter-number-cipher)
@@ -25,8 +28,11 @@ Check out the [online dcode Cipher Identifier](https://www.dcode.fr/cipher-ident
 - [ASCII Shift Cipher](https://www.dcode.fr/ascii-shift-cipher)
 - [rot8000 Cipher](https://rot8000.com/Index) — "rotate alphabet 0x8000 places", Caesar Shift for Unicode.
 
+
+
+
 ## Code Beautify
-[CodeBeautify](https://codebeautify.org/) — Code formatter, decode, convert
+[CodeBeautify](https://codebeautify.org/) is an online Code formatter, decoder, converter.
 - [ZLib Decompress Online](https://codebeautify.org/zlib-decompress-online)
 - [Number System Converter](https://codebeautify.org/all-number-converter)
 - [JSON Beautifier, Viewer](https://codebeautify.org/jsonviewer), [JSON Validator](https://codebeautify.org/jsonvalidator), [JSON Cheat Sheet](https://codebeautify.org/json-cheat-sheet)
@@ -37,6 +43,7 @@ Check out the [online dcode Cipher Identifier](https://www.dcode.fr/cipher-ident
 - [ASCII to Text](https://codebeautify.org/ascii-to-text)
 - [Encryption/Decryption](https://codebeautify.org/encrypt-decrypt)
 - ...and more
+
 
 ## Misc. Other decoders, etc.
 - [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli decoder
@@ -57,7 +64,7 @@ Check out the [online dcode Cipher Identifier](https://www.dcode.fr/cipher-ident
 ## Online Stego Tools
 - [StegOnline](https://stegonline.georgeom.net/upload) — Online Steg Decoder
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
-  - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
+  - Supported formats: **JPEG**, **PNG**, **WebP**, **HEIC**, and **AVIF**.
   - The "Hidden Pixels" analysis option is particularly useful.
 - [Stegano](https://futureboy.us/stegano/) — Steghide online
 - [Online Exiftool](https://exif.tools/) — Online file metadata extraction
@@ -71,17 +78,17 @@ Check out the [online dcode Cipher Identifier](https://www.dcode.fr/cipher-ident
 
 ## Command Line Stego Tools
 - [Identify](https://linux.die.net/man/1/identify) — 
-  - Supported formats: 
+  - 
 - [Steghide](https://www.kali.org/tools/steghide/) — 
-  - Supported formats: **JPEG**, **BMP**, **WAV**, **AU**
+  - **JPEG**, **BMP**, **WAV**, **AU**
 - [Zsteg](https://github.com/zed-0xff/zsteg) — Detect stegano-hidden data in PNG and BMP
-  - Supported formats: **PNG**, **BMP**
+  - **PNG**, **BMP**
 - [stegoVeritas]() — 
-  - Supported formats: **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
+  - **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
 - [Stegpy](https://github.com/dhsdshdhk/stegpy) — Encoding information in information in image, audio files
-  - Supported formats: **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
+  - **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
 - [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — Get details on a PNG file (or find out if it's actually something else)
-  - Supported formats: **PNG**
+  - **PNG**
 
 
 ## Fast Fouier Transform (FFT) Steganography Tools
