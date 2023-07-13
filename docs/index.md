@@ -8,6 +8,8 @@ Information on upcoming NCL Competitions can be found [here](https://nationalcyb
 
 Click on the links below to view my lists of tools for each category!
 
+---
+
 ## Categories
 - [**Open Source Intelligence**](/tools/osint-tools.md#Open-Source-Intelligence)
 - [**Cryptography**](/tools/cryptography-tools.md#Cryptography)
@@ -20,6 +22,8 @@ Click on the links below to view my lists of tools for each category!
 - [**Web Application Exploitation**](/tools/web-app-exploit.md#Web-Application-Exploitation)
 - [**Enumeration and Exploitation**](/tools/enumeration-exploit-tools.md#Enumeration-and-Exploitation)
 - [**Misc. and Unsorted Tools**](/tools/misc-tools.md)
+
+---
 
 ## Appendix
 - [Command Line Commands](/appendix/cmd-line-cmds.md)
