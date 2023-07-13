@@ -19,6 +19,7 @@ Click on the links below to view my lists of tools for each category!
 - [**Scanning and Reconnaissance**](/tools/scanning-recon-tools.md#Scanning-and-Reconnaissance)
 - [**Web Application Exploitation**](/tools/web-app-exploit.md#Web-Application-Exploitation)
 - [**Enumeration and Exploitation**](/tools/enumeration-exploit-tools.md#Enumeration-and-Exploitation)
+- [**Misc. and Unsorted Tools**](/tools/misc-tools.md)
 ## Appendix
 - [Command Line Commands](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/cmd-line-cmds.md)
 - [Environment](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/environment.md)
