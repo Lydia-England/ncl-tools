@@ -69,7 +69,7 @@
 - [Identify](https://linux.die.net/man/1/identify) — 
   - Supported formats: 
 - [Steghide](https://www.kali.org/tools/steghide/) — 
-  - Supported formats: 
+  - Supported formats: JPEG, BMP, WAV, AU
 - [Zsteg](https://github.com/zed-0xff/zsteg) — Detect stegano-hidden data in PNG and BMP
   - Supported formats: 
 - [stegoVeritas]() — 
@@ -77,9 +77,9 @@
 - [Stegsolve]() — 
   - Supported formats: 
 - [Stegpy](https://github.com/dhsdshdhk/stegpy) — Encoding information in information in image, audio files
-  - Supported formats: 
+  - Supported formats: PNG, BMP, GIF, WebP, WAV
 - [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) — Get details on a PNG file (or find out if it's actually something else)
-  - Supported formats: 
+  - Supported formats: PNG
 
 
 
@@ -95,6 +95,10 @@
 - [Sonic Annotator](https://vamp-plugins.org/sonic-annotator/) — Batch tool for feature extraction and annotation of audio files using [Vamp plugins](https://vamp-plugins.org/index.html). Part of the Sonic Visualizer family of applications.
 - [Detect DTMF Tones (file upload)](http://dialabc.com/sound/detect/index.html) — 
 - [Detect DTMF Tones (demo)](https://unframework.github.io/dtmf-detect/) — 
+- [Wavsteg]() — 
+  - Wavsteg supported formats: **WAV**
+- []() — 
+- []() — 
 
 
 
