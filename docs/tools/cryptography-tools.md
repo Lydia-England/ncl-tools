@@ -28,6 +28,7 @@
   - [ASCII to Text](https://codebeautify.org/ascii-to-text)
   - [Encryption/Decryption](https://codebeautify.org/encrypt-decrypt)
   - ...and more
+- [List of Online Tools for Ciphers and Codes](https://rumkin.com/tools/cipher/)
 
 ### Online Steganography Tools
 - [StegOnline](https://stegonline.georgeom.net/upload) — Online Steg Decoder

