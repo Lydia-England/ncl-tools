@@ -5,19 +5,35 @@
 - [Autonomous System Lookup (AS/ASN/IP)](https://hackertarget.com/as-ip-lookup/)
 - [Website to IP Lookup](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiA3I6ZjIeAAxUZO0QIHXkSBSEQFnoECA0QAQ&url=https%3A%2F%2Fwww.nslookup.io%2Fwebsite-to-ip-lookup%2F&usg=AOvVaw169x1zRLKwwWjrdHJwkaCZ&opi=89978449)
 
-## Scanning and Reconnaissance Tools
+
+## More Scanning and Reconnaissance Tools
 - [Dirbuster](https://www.kali.org/tools/dirbuster/) —
-- dirb
-  - Brute force HTTP(s) directories and files.
-- nikto
 - wfuzz
 - cewl (creating wordlist from webpage)
 - [`smtp-user-enum`](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum) — Username guessing tool primarily for use against the default SMTP service.
   - [Linux username wordlist](https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/unix_users.txt)
 - `wget`
-
 - [Zenmap](https://nmap.org/zenmap/) — A graphical user interface for Nmap.
 
+
+
+## Dirb
+[Dirb](https://www.kali.org/tools/dirb/) is a tool to perform a dictionary based attack against web server; scan web server for directories using a dictionary file.
+  - Use option `-f` for fine-tune scan.
+
+
+## Nikto
+[nikto](https://github.com/sullo/nikto/wiki) is a web server scanner, tests for dangerous files and programs, security vulnerabilities.
+  - Basic usage: Scan a single port of an IP address:
+    ```bash
+    perl nikto.pl -h <ip address> -p <TCP port number>
+    ```
+    *note that if no port is specified, TCP port 80 is assumed.*
+
+
+## WFuzz
+[WFuzz](https://wfuzz.readthedocs.io/en/latest/user/basicusage.html) is a web application security fuzzer tool and Python library.
+A HackTricks article on using WFuzz is found [here](https://book.hacktricks.xyz/pentesting-web/web-tool-wfuzz).
 
 
 
