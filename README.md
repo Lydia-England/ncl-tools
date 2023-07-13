@@ -20,15 +20,10 @@ Click on the links below to view my lists of tools for each category!
 - [**Web Application Exploitation**](/tools/web-app-exploit.md#Web-Application-Exploitation)
 - [**Enumeration and Exploitation**](/tools/enumeration-exploit-tools.md#Enumeration-and-Exploitation)
 ## Appendix
-- Command Line Commands
-- Environment
-- Resources
-- NCL Strategies
+- [Command Line Commands](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/cmd-line-cmds.md)
+- [Environment](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/environment.md)
+- [Resources](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/resources.md)
+- [NCL Strategies](https://github.com/Lydia-England/ncl-tools/blob/main/appendix/ncl-strategies.md)
 
-
-### Unsorted Tools
-
-- [pwntools](https://docs.pwntools.com/en/stable/) — Python library for interacting with ctf challenges, focus on pwning.
-- [ffmpeg](https://ffmpeg.org/) — Record, convert, stream audio and video.
 
 
