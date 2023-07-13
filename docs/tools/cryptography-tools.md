@@ -9,11 +9,12 @@
 
 
 
-## Cipher Identification and Decryption Tools
+# Cipher Identification and Decryption Tools
 ---
 
-### dcode
-[dcode](https://www.dcode.fr/cipher-identifier) — Cipher identifier
+## dcode
+dcode.fr is a collection of hundreds of tools to help solve ciphers, codes, puzzles, etc. 
+Check out the [online dcode Cipher Identifier](https://www.dcode.fr/cipher-identifier) if you're not sure how a message is encrypted. 
 - [Caesar Cipher](https://www.dcode.fr/caesar-cipher)
 - [Morse Code Translator](https://morsedecoder.com/)
 - [Letter Number Code](https://www.dcode.fr/letter-number-cipher)
@@ -24,7 +25,7 @@
 - [ASCII Shift Cipher](https://www.dcode.fr/ascii-shift-cipher)
 - [rot8000 Cipher](https://rot8000.com/Index) — "rotate alphabet 0x8000 places", Caesar Shift for Unicode.
 
-### Code Beautify
+## Code Beautify
 [CodeBeautify](https://codebeautify.org/) — Code formatter, decode, convert
 - [ZLib Decompress Online](https://codebeautify.org/zlib-decompress-online)
 - [Number System Converter](https://codebeautify.org/all-number-converter)
@@ -37,7 +38,7 @@
 - [Encryption/Decryption](https://codebeautify.org/encrypt-decrypt)
 - ...and more
 
-### Misc. Other decoders, etc.
+## Misc. Other decoders, etc.
 - [CacheSleuth](https://www.cachesleuth.com/multidecoder/) — Mutli decoder
 - [CyberChef](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwijlaDt3oyAAxWxGjQIHXlgA28QFnoECA4QAQ&url=https%3A%2F%2Fgchq.github.io%2FCyberChef%2F&usg=AOvVaw3cJhXGWs_4gKkmjmhQLSNC&opi=89978449) — Web app for encryption, encoding, compression, and data analysis. Build "recipes" to analyze data.
 - [cryptii](https://cryptii.com/) — Modular conversion, encoding, and encryption online
@@ -48,12 +49,12 @@
 
 
 
-## Steganography Tools
+# Steganography Tools
 ---
 
 *Note: Many important Forensics tools also apply to cryptography (especially steganography) challenges. If you're stuck, check the Forensics Tools page.*
 
-### Online Stego Tools
+## Online Stego Tools
 - [StegOnline](https://stegonline.georgeom.net/upload) — Online Steg Decoder
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
   - Supported formats: JPEG, PNG, WebP, HEIC, and AVIF.
@@ -68,7 +69,7 @@
 - [Hidden data in spaces](https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder)
 
 
-### Command Line Stego Tools
+## Command Line Stego Tools
 - [Identify](https://linux.die.net/man/1/identify) — 
   - Supported formats: 
 - [Steghide](https://www.kali.org/tools/steghide/) — 
@@ -83,13 +84,13 @@
   - Supported formats: **PNG**
 
 
-### Fast Fouier Transform (FFT) Steganography Tools
+## Fast Fouier Transform (FFT) Steganography Tools
 - [Imaging Web Demo - FFT Tool](http://bigwww.epfl.ch/demo/ip/demos/FFT/) — Online FFT Tool
 - [Ejectamenta](https://www.ejectamenta.com/Fourifier-fullscreen/) — Online FFT Tool
 - [FFTStegPic](https://github.com/0xcomposure/FFTStegPic) — Python script for digital image stego with FFT
 
 
-### Audio and Video Stego Tools
+## Audio and Video Stego Tools
 - [Sonic Visualizer](https://www.sonicvisualiser.org/) — Visualization, analysis, and annotation of music audio recordings.
   - If you're stuck, always check the spectrogram of the audio.
 - [Sonic Lineup](https://www.sonicvisualiser.org/sonic-lineup/index.html) — Rapid visualisation of multiple audio files containing versions of the same source material. Part of the Sonic Visualizer family of applications.
@@ -116,7 +117,7 @@
   - If DeepSound finds any data hidden, you'll need to provide the password to unlock it.
 
 
-### Software for Steganography
+## Software for Steganography
 - [Gimp](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj09LaF54yAAxUGITQIHeNiDm8QFnoECA4QAQ&url=https%3A%2F%2Fwww.gimp.org%2F&usg=AOvVaw14Av6K8pNdgfrkZATYVj-5&opi=89978449) — "GNU Image Manipulation Program," raster graphics editor used for image manipulation and editing, transcoding between image file formats, etc.
 - [Stegsolve](https://wiki.bi0s.in/steganography/stegsolve/) — Analyze images in different planes by taking bits off the image.
   - Installation:
@@ -128,13 +129,13 @@
   java -jar stegsolve.jar
   ```
 
-### Misc. and Other Resources
+## Misc. and Other Resources
 - [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit) —  Docker image useful for solving CTF Steganography challenges. Includes nice descriptions of all the tools included.
 - [Steganography Tools List](https://0xrick.github.io/lists/stego/) — List of useful tools and resources for steganography. Includes brief description of each.
 
 
 
-## RSA Decryption Tools
+# RSA Decryption Tools
 ---
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
 - [Prime Factorization Calculator](https://www.calculatorsoup.com/calculators/math/prime-factors.php)
@@ -144,7 +145,7 @@
   
 
 
-## Misc. Command Line Cryptography Tools
+# Misc. Command Line Cryptography Tools
 ---
 - [Ciphy](https://github.com/Ciphey/Ciphey) — Automatically determine cipher and output result.
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) — Uncipher data from weak public keys and attempt to recover the corresponding private key.
