@@ -23,13 +23,13 @@ Commonly used dCode cipher tools:
 - [Letter Number Code](https://www.dcode.fr/letter-number-cipher)
   - Replaces each letter with its position in the alphabet. 
   - "Space" character is often encoded as a zero, but may be encoded as something else (or not encoded at all).
-  - Example: "Hello World" is encrypted as: 8-5-12-12-15-0-23-15-18-12-4
+  - Example: "Hello World" is encrypted as: `8-5-12-12-15-0-23-15-18-12-4`
 - [Braille Alphabet](https://www.dcode.fr/braille-alphabet)
   - Braille is a tactile writing system used by people who are visually impaired.
   - Each letter corresponds to a specific pattern of raised dots.
 - [Atbash Cipher](https://www.dcode.fr/atbash-cipher)
   - The Atbash cipher encodes a message with the reverse of the alphabet. 
-  - Example: "Hello World" is encrypted as: Svool Dliow
+  - Example: "Hello World" is encrypted as: `Svool Dliow`
 - [Polybius Square Cipher](https://www.cachesleuth.com/polybiussquare.html)
   - The Polybius square places all letters in a grid; each letter is represented by its coordinates in the grid. 
   - A *key* could be used to reorder the alphabet in the square, with the letters (without duplicates) being placed at the beginning and the remaining letters following it in alphabetical order.
