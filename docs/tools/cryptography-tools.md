@@ -77,7 +77,18 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 
 # Steganography Tools
 
-*Note: Many important Forensics tools also apply to cryptography (especially steganography) challenges. If you're stuck, check the Forensics Tools page.*
+*Note: Many important Forensics tools also apply to cryptography (especially steganography) challenges. If you're stuck, check the [Forensics Tools page](/forensics-tools.md#Forensics).*
+
+## Extracting data from all files
+These are described more thoroughly in [Forensics Tools page](/forensics-tools.md#Forensics).
+- Binwalk
+- Foremost
+- Exiftool
+- Exiv2
+- File
+- Strings
+- cmp (Comparison)
+
 
 ## Online Stego Tools
 - [StegOnline](https://stegonline.georgeom.net/upload) 
