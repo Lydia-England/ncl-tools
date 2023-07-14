@@ -37,8 +37,10 @@ Commonly used dCode cipher tools:
   - The Five Needle Telegraph Code (a.k.a. the Cooke and Wheatstone Telegraph) is represented by three characters \|/ in a set of 5. 
   - Example: "Hello" is encrypted as: /\||| /|\|| |||/\ |||/\ ||\/| 
 - [ASCII Shift Cipher](https://www.dcode.fr/ascii-shift-cipher)
+  - The ASCII shift cipher is like the Caesar cipher, but the ASCII table is used instead of the Latin alphabet, yielding 127 different offsets.
 - [rot8000 Cipher](https://rot8000.com/Index) 
-  - "rotate alphabet 0x8000 places", Caesar Shift for Unicode.
+  - "rotate alphabet 0x8000 places". 
+  - Variant of ROT-13 or ROT-47 adapted to Unicode with a rotation of 0x8000 (hexadecimal value).
 
 
 
