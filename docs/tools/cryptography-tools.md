@@ -94,6 +94,8 @@ These are described more thoroughly in [Forensics Tools page](/forensics-tools.m
 
 
 ## Online Steganography Tools
+- [TinEye](https://tineye.com/)
+  - Reverse Image Search online.
 - [StegOnline](https://stegonline.georgeom.net/upload) 
   - Online Steg Decoder
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
@@ -219,6 +221,11 @@ Multi options:
   ```bash
   java -jar stegsolve.jar
   ```
+- [Imagemagick](https://imagemagick.org/index.php)
+  - Supported formats: **JPEG**, **PNG**, **GIF**, **TIFF**, **PDF**,
+  - Used for editing and manipulating digital images.
+  - Can be used to create, edit, compose, or convert bitmap images.
+
 
 ## Misc. and Other Resources
 - [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit) 
