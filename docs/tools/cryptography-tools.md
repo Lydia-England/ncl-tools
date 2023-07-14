@@ -71,6 +71,7 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 - [cryptii](https://cryptii.com/) 
   - Modular conversion, encoding, and encryption online
 - [List of Online Tools for Ciphers and Codes](https://rumkin.com/tools/cipher/)
+- [Identify Encryption or Number Base](https://book.hacktricks.xyz/crypto-and-stego/crypto-ctfs-tricks)
 
 
 
