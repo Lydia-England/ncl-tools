@@ -123,6 +123,7 @@ These are described more thoroughly in [Forensics Tools page](/forensics-tools.m
   - Member of the [imagemagick](https://linux.die.net/man/1/imagemagick) suite of tools.
 - [Steghide](https://www.kali.org/tools/steghide/) 
   - Supported formats: **JPEG**, **BMP**, **WAV**, **AU**
+- stegoVeritas (described below)
 - [Zsteg](https://github.com/zed-0xff/zsteg) 
   - Supported formats: **PNG**, **BMP**
   - Detect stegano-hidden data in PNG and BMP.
@@ -136,7 +137,7 @@ These are described more thoroughly in [Forensics Tools page](/forensics-tools.m
   - Get details on a PNG file (or find out if it's actually something else).
 
 
-### stegoVeritas
+## stegoVeritas
 [stegoVeritas](https://github.com/bannsec/stegoVeritas/) is "yet another Stego tool".
 - Supported formats: **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
 - Will attempt to run on any file.
