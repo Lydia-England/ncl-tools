@@ -1,11 +1,12 @@
 # Cryptography
 
+---
+
 ## Number Bases Converters and Translators
 - [Base64 Converter](https://www.base64decode.org/)
 - [Hex to ASCII Converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
 - [Octal to Text Converter](https://www.browserling.com/tools/octal-to-text)
 
----
 ---
 
 # Cipher Identification and Decryption Tools
@@ -74,6 +75,7 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 
 
 
+---
 
 # Steganography Tools
 
@@ -220,6 +222,7 @@ Multi options:
   - List of useful tools and resources for steganography. Includes brief description of each.
 
 
+---
 
 # RSA Decryption Tools
 - [Integer Factorization Calculator](https://www.alpertron.com.ar/ECM.HTM)
@@ -229,6 +232,7 @@ Multi options:
 - [Carmichael Function Calculator](https://comnuan.com/cmnn02/cmnn02006/cmnn02006.php)
   
 
+---
 
 # Misc. Command Line Cryptography Tools
 - [Ciphy](https://github.com/Ciphey/Ciphey) 
