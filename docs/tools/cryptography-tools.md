@@ -47,7 +47,6 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
   - Example: "Hello World" is encrypted as: `籛籘籝籁簹簹簹`.
 
 
-
 ## Code Beautify
 [CodeBeautify](https://codebeautify.org/) is an online Code formatter, decoder, converter.
 - [ZLib Decompress Online](https://codebeautify.org/zlib-decompress-online)
@@ -85,11 +84,23 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 - [CyberChef](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwijlaDt3oyAAxWxGjQIHXlgA28QFnoECA4QAQ&url=https%3A%2F%2Fgchq.github.io%2FCyberChef%2F&usg=AOvVaw3cJhXGWs_4gKkmjmhQLSNC&opi=89978449) 
   - Web app for encryption, encoding, compression, and data analysis. 
   - Build "recipes" to analyze data.
+  - `Magic` option tries to identify the cipher; attempts many decoding methods.
 - [cryptii](https://cryptii.com/) 
   - Modular conversion, encoding, and encryption online
+- [Shamir's Secret Sharing](http://christian.gen.co/secrets/)
+  - SSS is a secret sharing algorithm for distributing a secret among a group. 
+  - The secret cannot be revealed unless a quorum of the group acts together to pool their knowledge.
 - [List of Online Tools for Ciphers and Codes](https://rumkin.com/tools/cipher/)
 - [Identify Encryption or Number Base](https://book.hacktricks.xyz/crypto-and-stego/crypto-ctfs-tricks)
 
+
+## Brute force OpenSSL encrypted file
+- [Bruteforce Salted OpensSL](https://github.com/glv2/bruteforce-salted-openssl)
+  - Try to find the password of a file that was encrypted with the `openssl` command.
+    - OpenSSL encryption example: `openssl enc -aes256 -salt -in clear.file -out encrypted.file`
+  - Can be used either to try all the passwords in a file or to try all possible passwords in a given charset.
+- [Easy Brute Force OpenSSL CTF](https://github.com/carlospolop/easy_BFopensslCTF)
+  - Bash script that given a password (or wordlist) tries to decrypt an OpenSSL encrypted file using several algorithms.
 
 
 
@@ -244,7 +255,7 @@ Multi options:
   - Can be used to create, edit, compose, or convert bitmap images.
 
 
-## Misc. and Other Resources
+## Misc. and Other Steganography Resources
 - [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit) 
   - Docker image useful for solving CTF Steganography challenges. Includes nice descriptions of all the tools included.
 - [Steganography Tools List](https://0xrick.github.io/lists/stego/) 
