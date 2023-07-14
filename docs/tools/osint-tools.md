@@ -55,23 +55,23 @@ iwlist <if> scanning | grep -A5 -B5 -E "AA.BB.CC.DD.EE.FF" | grep -i ESSID
 
 
 ## Wi-Fi Terms and Definitions
-Wireless LAN (WLAN) is a network in which devices are communicating wirelessly with each other in a defined area. 
+**Wireless LAN (WLAN)** is a network in which devices are communicating wirelessly with each other in a defined area. 
 It is ultimately connected to a wired network.
 
-A Wireless Access Point (WAP) accepts a wireless signal from multiple devices and retransmits them to the rest of the network.
+A **Wireless Access Point (WAP)** accepts a wireless signal from multiple devices and retransmits them to the rest of the network.
 
-The Service Set Identifier (SSID), also called the "network name" is the fundamental identification for an 802.11 Wireless Local Area Network (WLAN), whcih includes both home networks and public hotspots.
-The SSID is a case-sensitive text string that can contain letters, digits, or both, and has a maximum length of 32 characters. 
-Wi-Fi units are preprogrammed by router manufacturers with a default SSID (examples: TP LINK, D LINK, JIO FI, or DEFAULT). 
+The **Service Set Identifier (SSID)**, also called the **"network name"** is the fundamental identification for an 802.11 **Wireless Local Area Network (WLAN)**, whcih includes both home networks and public hotspots.
+The **SSID** is a case-sensitive text string that can contain letters, digits, or both, and has a maximum length of 32 characters. 
+Wi-Fi units are preprogrammed by router manufacturers with a default **SSID** (examples: TP LINK, D LINK, JIO FI, or DEFAULT). 
 
-The Basic Service Set Identifier (BSSID) is not the same as the SSID.
-The Basic Service Set (BSS) is a group of wireless devices that work with the same Access Point (AP). 
-The BSSID is the AP's physical MAC address. 
+The **Basic Service Set Identifier (BSSID)** is not the same as the **SSID**.
+The **Basic Service Set (BSS)** is a group of wireless devices that work with the same **Access Point (AP)**. 
+The **BSSID** is the **AP**'s physical **MAC address**. 
 This info is included in the packets.
 
-One Service Set can be extended by adding more APs; this is called the Extended Service Set (ESS). 
-The shared network name is referred to as the Extended Service Set Identifier (ESSID). 
-Every AP broadcasts the same SSID to its users.
+One **Service Set** can be extended by adding more **AP**s; this is called the **Extended Service Set (ESS)**. 
+The shared network name is referred to as the **Extended Service Set Identifier (ESSID)**. 
+Every **AP** broadcasts the same **SSID** to its users.
 
 - WEP
 - WPA/WPA2
