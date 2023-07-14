@@ -90,6 +90,9 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 - [Shamir's Secret Sharing](http://christian.gen.co/secrets/)
   - SSS is a secret sharing algorithm for distributing a secret among a group. 
   - The secret cannot be revealed unless a quorum of the group acts together to pool their knowledge.
+- [Boxentriq](https://www.boxentriq.com/)
+  - Online code-breaking, cipher, and logic puzzles solving tools.
+  - Classic ciphers, text and word tools, analysis tools, modern ciphers, steganography, encodings, math, alphabets, etc.
 - [List of Online Tools for Ciphers and Codes](https://rumkin.com/tools/cipher/)
 - [Identify Encryption or Number Base](https://book.hacktricks.xyz/crypto-and-stego/crypto-ctfs-tricks)
 
