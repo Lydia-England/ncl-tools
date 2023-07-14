@@ -5,7 +5,8 @@
 - [Hex to ASCII Converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
 - [Octal to Text Converter](https://www.browserling.com/tools/octal-to-text)
 
-
+---
+---
 
 # Cipher Identification and Decryption Tools
 
