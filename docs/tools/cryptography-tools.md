@@ -92,7 +92,7 @@ These are described more thoroughly in [Forensics Tools page](/forensics-tools.m
 - cmp (Comparison)
 
 
-## Online Stego Tools
+## Online Steganography Tools
 - [StegOnline](https://stegonline.georgeom.net/upload) 
   - Online Steg Decoder
 - [FotoForensics](https://fotoforensics.com/analysis.php?id=b4727b6206fb898a6ae76ea14d8d6ae4fc623752.110213)
