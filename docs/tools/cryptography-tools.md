@@ -34,8 +34,8 @@ Commonly used dCode cipher tools:
   - The Polybius square places all letters in a grid; each letter is represented by its coordinates in the grid. 
   - A *key* could be used to reorder the alphabet in the square, with the letters (without duplicates) being placed at the beginning and the remaining letters following it in alphabetical order.
 - [Five Needle Telegraph Code](https://www.cachesleuth.com/fiveneedletelegraph.html)
-  - The Five Needle Telegraph Code (a.k.a. the Cooke and Wheatstone Telegraph) is represented by three characters \|/ in a set of 5. 
-  - Example: "Hello" is encrypted as: /\||| /|\|| |||/\ |||/\ ||\/| 
+  - The Five Needle Telegraph Code (a.k.a. the Cooke and Wheatstone Telegraph) is represented by three characters `\|/` in a set of 5. 
+  - Example: "Hello" is encrypted as: `/\||| /|\|| |||/\ |||/\ ||\/|`
 - [ASCII Shift Cipher](https://www.dcode.fr/ascii-shift-cipher)
   - The ASCII shift cipher is like the Caesar cipher, but the ASCII table is used instead of the Latin alphabet, yielding 127 different offsets.
 - [rot8000 Cipher](https://rot8000.com/Index) 
