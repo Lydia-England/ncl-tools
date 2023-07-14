@@ -126,6 +126,9 @@ These are described more thoroughly in [Forensics Tools page](/forensics-tools.m
 - [Zsteg](https://github.com/zed-0xff/zsteg) 
   - Supported formats: **PNG**, **BMP**
   - Detect stegano-hidden data in PNG and BMP.
+  - Useful commands:
+    - `zsteg -a file` Runs every detection method on the given file.
+    - `zsteg -E payload file` Extracts data with the given payload (example" `b4,bgr,msb,xy`") 
 - [Stegpy](https://github.com/dhsdshdhk/stegpy) 
   - Supported formats: **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
   - Encoding information in image, audio files.
