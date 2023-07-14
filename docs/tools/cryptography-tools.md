@@ -14,7 +14,7 @@ dCode.fr is a collection of hundreds of tools to help solve ciphers, codes, puzz
 Check out the [online dCode Cipher Identifier](https://www.dcode.fr/cipher-identifier) if you're not sure how a message is encrypted. 
 Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-list).
 
-Commonly used dCode cipher tools: 
+### Commonly used dCode cipher tools: 
 - [Caesar Cipher](https://www.dcode.fr/caesar-cipher)
   - Substitution cipher: letters in the alphabet are shifted by some fixed number of spaces to yield an encoding alphabet. 
 - [Morse Code Translator](https://morsedecoder.com/)
@@ -132,7 +132,7 @@ Commonly used dCode cipher tools:
   - Find hidden content using Fast Fourier Transform (FFT).
 
 
-## Audio and Video Stego Tools
+## Audio and Video Steganography Tools
 - [Sonic Visualizer](https://www.sonicvisualiser.org/) 
   - Visualization, analysis, and annotation of music audio recordings.
   - If you're stuck, always check the spectrogram of the audio.
