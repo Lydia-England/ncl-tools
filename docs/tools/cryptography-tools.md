@@ -112,13 +112,36 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 - [Zsteg](https://github.com/zed-0xff/zsteg) 
   - Supported formats: **PNG**, **BMP**
   - Detect stegano-hidden data in PNG and BMP.
-- [stegoVeritas]() 
-  - Supported formats: **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
 - [Stegpy](https://github.com/dhsdshdhk/stegpy) 
   - Supported formats: **PNG**, **BMP**, **GIF**, **WebP**, **WAV**
   - Encoding information in image, audio files.
 - [Pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) 
   - Get details on a PNG file (or find out if it's actually something else).
+
+
+### stegoVeritas
+[stegoVeritas](https://github.com/bannsec/stegoVeritas/) is "yet another Stego tool".
+- Supported formats: **JPG**, **PNG**, **GIF**, **TIFF**, **BMP**
+- Will attempt to run on any file.
+
+Usage:
+```bash
+stegoveritas [optional args] file
+```
+
+(Some of the) useful image options:
+- `-bruteLSB` to attempt to brute force any LSB related steganography.
+- `-meta` to check file for metadata information
+- `-extractLSB` to extract a specific LSB RGB from the image. 
+  - Use with `-red`, `-green`, `-blue`, and `-alpha`.
+- `-trailing` to check for trailing data on the given file.
+- `-steghide` to check for StegHide hidden info.
+
+Multi options:
+- `-exif` to check this file for exif information.
+- `-xmp` to check this file for xmp information.
+- `-carve` to attempt to carve/extract things from this file.
+
 
 
 ## Fast Fouier Transform (FFT) Steganography Tools
