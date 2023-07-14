@@ -11,6 +11,7 @@ Click on the links below to view my lists of tools for each category!
 ## Categories
 - [**Open Source Intelligence**](/tools/osint-tools.md#Open-Source-Intelligence)
 - [**Cryptography**](/tools/cryptography-tools.md#Cryptography)
+- [**Steganography**](/tools/steg-tools.md#Cryptography)
 - [**Password Cracking**](/tools/password-cracking-tools.md#Password-Cracking)
 - [**Log Analysis**](/tools/log-analysis-tools.md#Log-Analysis)
 - [**Network Traffic Analysis**](/tools/network-traffic-analysis-tools.md#Network-Traffic-Analysis)
