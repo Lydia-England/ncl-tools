@@ -62,6 +62,23 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 - ...and more
 
 
+## Misc. Command Line Cryptography Tools
+- [Ciphy](https://github.com/Ciphey/Ciphey) 
+  - Automatically determine cipher and output result.
+- [FeatherDuster](https://github.com/nccgroup/featherduster)
+  - Tool for breaking crypto (identifying and exploiting weak cryptosystems).
+  - Run with: `featherduster [ciphertext file 1] ... [ciphertext file n]`
+- [Cryptanalib](https://github.com/nccgroup/featherduster)
+  - Part of the Featherduster project; can be used independently of FeatherDuster.
+  - Used to make Python-based crypto attack tools.
+  - Documentation accessed through the Python `help()` function.
+- [Cryptanalib3](https://pypi.org/project/cryptanalib3/)
+  - Python3 fork of `cryptanalib` module from FeatherDuster project. 
+  - Standalone module for performing cryptanalysis and cryptographic exploit development.
+  - Import: Launch Python3 and `import ca3`.
+  - Cryptanalib3 attempts to decode, identify, and look for indicators of vulnerability with th `analyze_ciphertext()` function.
+
+
 ## Misc. Other decoders, etc.
 - [CacheSleuth](https://www.cachesleuth.com/multidecoder/) 
   - Mutli decoder
@@ -242,14 +259,7 @@ Multi options:
 - [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/Courses/CSP/Fa17/notes/10.1_Cryptography/RSA_Express_EncryptDecrypt_v2.html)
 - [dcode RSA Cipher Calculator](https://www.dcode.fr/rsa-cipher)
 - [Carmichael Function Calculator](https://comnuan.com/cmnn02/cmnn02006/cmnn02006.php)
-  
-
----
-
-# Misc. Command Line Cryptography Tools
-- [Ciphy](https://github.com/Ciphey/Ciphey) 
-  - Automatically determine cipher and output result.
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) 
   - Uncipher data from weak public keys and attempt to recover the corresponding private key.
-- opencv-python 
-  - Find hidden content using Fast Fourier Transform (FFT)
+  
+
