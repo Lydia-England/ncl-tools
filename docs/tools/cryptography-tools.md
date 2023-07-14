@@ -16,12 +16,26 @@ Or check out the [list of all available dCode tools](https://www.dcode.fr/tools-
 
 Commonly used dCode cipher tools: 
 - [Caesar Cipher](https://www.dcode.fr/caesar-cipher)
+  - Substitution cipher: letters in the alphabet are shifted by some fixed number of spaces to yield an encoding alphabet. 
 - [Morse Code Translator](https://morsedecoder.com/)
+  - Encodes text characters as sequences of two different signal durations, called dots and dashes (or dits and dahs). 
+  - Example: `.... . .-.. .-.. ---` is "Hello" in Morse code.
 - [Letter Number Code](https://www.dcode.fr/letter-number-cipher)
+  - Replaces each letter with its position in the alphabet. 
+  - "Space" character is often encoded as a zero, but may be encoded as something else (or not encoded at all).
+  - Example: "Hello World" is encrypted as: 8-5-12-12-15-0-23-15-18-12-4
 - [Braille Alphabet](https://www.dcode.fr/braille-alphabet)
+  - Braille is a tactile writing system used by people who are visually impaired.
+  - Each letter corresponds to a specific pattern of raised dots.
 - [Atbash Cipher](https://www.dcode.fr/atbash-cipher)
+  - The Atbash cipher encodes a message with the reverse of the alphabet. 
+  - Example: "Hello World" is encrypted as: Svool Dliow
 - [Polybius Square Cipher](https://www.cachesleuth.com/polybiussquare.html)
+  - The Polybius square places all letters in a grid; each letter is represented by its coordinates in the grid. 
+  - A *key* could be used to reorder the alphabet in the square, with the letters (without duplicates) being placed at the beginning and the remaining letters following it in alphabetical order.
 - [Five Needle Telegraph Code](https://www.cachesleuth.com/fiveneedletelegraph.html)
+  - The Five Needle Telegraph Code (a.k.a. the Cooke and Wheatstone Telegraph) is represented by three characters \|/ in a set of 5. 
+  - Example: "Hello" is encrypted as: /\||| /|\|| |||/\ |||/\ ||\/| 
 - [ASCII Shift Cipher](https://www.dcode.fr/ascii-shift-cipher)
 - [rot8000 Cipher](https://rot8000.com/Index) 
   - "rotate alphabet 0x8000 places", Caesar Shift for Unicode.
