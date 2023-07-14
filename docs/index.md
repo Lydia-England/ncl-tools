@@ -1,16 +1,14 @@
 # NCL Tools and Resources
 The [National Cyber League (NCL)](https://nationalcyberleague.org/) is a bi-annual, virtual, puzzle-based, capture-the-flag style cybersecurity competition for high school and undergraduate students. 
 
-*From the [NCL About Page](https://nationalcyberleague.org/about):* "NCL offers a fun way to learn and apply your skills in a safe environment - but it’s so much more than that, because with their NCL Scouting Reports you can present credible proof to employers of your hands-on expertise."
-An article from the Applied Cybersecurity Division at NIST describes the [National Cyber League NICE Framework Success Story](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-success-story-national).  
-
 Information on upcoming NCL Competitions can be found [here](https://nationalcyberleague.org/competition).
 
 Click on the links below to view my lists of tools for each category!
 
 
-## Categories
 ---
+
+## Categories
 - [**Open Source Intelligence**](/tools/osint-tools.md#Open-Source-Intelligence)
 - [**Cryptography**](/tools/cryptography-tools.md#Cryptography)
 - [**Password Cracking**](/tools/password-cracking-tools.md#Password-Cracking)
@@ -24,13 +22,16 @@ Click on the links below to view my lists of tools for each category!
 - [**Misc. and Unsorted Tools**](/tools/misc-tools.md)
 
 
+---
 
 ## Appendix
----
 - [Command Line Commands](/appendix/cmd-line-cmds.md)
 - [Environment](/appendix/environment.md)
 - [Resources](/appendix/resources.md)
 - [NCL Strategies](/appendix/ncl-strategies.md)
 
 
+---
 
+*From the [NCL About Page](https://nationalcyberleague.org/about):* "NCL offers a fun way to learn and apply your skills in a safe environment - but it’s so much more than that, because with their NCL Scouting Reports you can present credible proof to employers of your hands-on expertise."
+An article from the Applied Cybersecurity Division at NIST describes the [National Cyber League NICE Framework Success Story](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-success-story-national).  
