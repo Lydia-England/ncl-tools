@@ -22,6 +22,7 @@ These are described more thoroughly in [Forensics Tools page](/forensics-tools.m
   - Supported formats: **JPEG**, **PNG**, **WebP**, **HEIC**, and **AVIF**.
   - The "Hidden Pixels" analysis option is particularly useful.
 - [Stegano](https://futureboy.us/stegano/) 
+  - Supported formats: **JPEG**, **WAV**, **AU**.
   - Steghide online
 - [Online Exiftool](https://exif.tools/) 
   - Online file metadata extraction
@@ -152,6 +153,15 @@ Multi options:
   - Docker image useful for solving CTF Steganography challenges. Includes nice descriptions of all the tools included.
 - [Steganography Tools List](https://0xrick.github.io/lists/stego/) 
   - List of useful tools and resources for steganography. Includes brief description of each.
+- [Steganography Playbook](https://fareedfauzi.gitbook.io/ctf-playbook/steganography)
+  - List of steps to take and tools to use, given different file types.
+
+
+## Steganography Encryption Tools and Tutorials
+Understanding the process of hiding information makes locating and extract information much easier. 
+- [How to Hide Files Inside Images in Linux (article)](https://www.makeuseof.com/tag/hide-files-inside-images-linux/)
+- [How to Create Steganography Challenges](https://cyberpj.medium.com/how-create-steganography-challenges-13-e32ce96aa7df)
+
 
 ---
 

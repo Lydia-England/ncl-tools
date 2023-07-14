@@ -26,7 +26,9 @@
 
 ### Unzip, Extract Files
 - [7-Zip](https://www.7-zip.org/) — File archiver with a high compression ratio (and opens just about anything)
-- `unzip filename.docx -d out` to unzip .docx files to see what's inside.
+- `unzip file.zip` to extract the archive file residing in the current directory and extract its contents also to the current directory. 
+- `unzip file.zip -d dest_folder` to extract the zip file to another folder.
+- `unzip filename.docx -d dest_folder` to unzip .docx files to see what's inside.
 - `gzip -d file.gz` (or `gzip -dk file.gz` to keep compressed file) — Unzip `gz` File
 - `gunzip file.gz` — Unzip `gz` file (this command is essentially an alias to `gzip -d`.
 - `tar -xf archive.tar.gz` to extract a `tar.gz` file.
@@ -47,3 +49,9 @@
   - Supported file formats include JPEG, PNG, GIF, TIFF, PDF.
 - [Extundelete](http://extundelete.sourceforge.net/) — Recover lost data from mountable images.
 - [PDF Streams Inflater](http://malzilla.sourceforge.net/downloads.html) — Find, extract zlib files compressed in PDF files.
+
+
+
+## Generate hash from command line
+- `sha256sum <datafile>` 
+- `sha256sum /path/to/datafile > checksum` to generate the hash for a file in a directory. Use `cat` command to display the contents.
