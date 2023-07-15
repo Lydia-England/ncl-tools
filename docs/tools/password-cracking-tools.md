@@ -7,18 +7,27 @@
   - Online password hash cracking
 - [Hashes](https://hashes.com/en/decrypt/hash) 
   - Decrypt MD5, SHA1, MySQL, NTLM, SHA256, MD5 Email, SHA256 Email, SHA512 hashes.
+  - Note that the output may not be listed in the same order the input was listed in.
 - [MD5 Decrypt](https://md5decrypt.net/en/)
   - Basic decryption of MD5, SHA1, SHA256, SHA384, SHA512, NTLM, COR, BCrypt, Blowfish, and Whirlpool hashes.
 - [ranbowtables.it64.com](http://rainbowtables.it64.com/)
   - Rainbow table attack on Microsoft Windows LM hashes. 
   
+
 ## Command Line Password Cracking Tools
-- [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
-- `hashcat` (more below)
-- [`fcrackzip`](https://www.kali.org/tools/fcrackzip/) — Zip password cracker
+- [Hash Identifier](https://www.kali.org/tools/hash-identifier/)
+  - Software to identify different types of hashes used to encrypt data and especially passwords. 
+  - Usage: enter `hash-identifier` in the command line. Enter hashes when prompted.
+- [HashID](https://www.kali.org/tools/hashid/)
+  - Identify different types of hashes used to encrypt data and especially passwords.
+- [Hashcat](https://hashcat.net/wiki/)
+  - More information below.
+- [fcrackzip](https://www.kali.org/tools/fcrackzip/) — Zip password cracker
+  - `fcrackzip -v -u -D -p rockyou.txt archive.zip`
 - [John the Ripper](https://www.openwall.com/john/) — Password cracker
 - [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
   
+
 ## Hashcat
 - Flag options (control character sets for brute force attacks)
   - `?l` — Charset: abcdefghijklmnopqrstuvwxyz
@@ -63,6 +72,10 @@
 - [Writeup of Cracking Encrypted PDFs](https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/)
 
 
-
+## Common Hash Types
+- Windows hashes
+  - LM, NTLM, Net-NTLMv2
+  - Output from `hash-identifier` may look like: `SAM - (LM_hash:NT_hash)`
+  - [Article on cracking Windows hashes](https://medium.com/@petergombos/lm-ntlm-net-ntlmv2-oh-my-a9b235c58ed4)
 
 
