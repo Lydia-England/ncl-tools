@@ -1,19 +1,25 @@
-## Password Cracking
+# Password Cracking
 
-### Online Password Cracking Tools
+## Online Password Cracking Tools
 - [MD5 Hash Generator](https://www.md5hashgenerator.com/)
 - [SHA256 Hash Generator](https://emn178.github.io/online-tools/sha256.html)
-- [CrackStation](https://crackstation.net/) — Online password hash cracking
-- [Hashes](https://hashes.com/en/decrypt/hash) — Decrypt MD5, SHA1, MySQL, NTLM, SHA256, MD5 Email, SHA256 Email, SHA512 hashes.
+- [CrackStation](https://crackstation.net/) 
+  - Online password hash cracking
+- [Hashes](https://hashes.com/en/decrypt/hash) 
+  - Decrypt MD5, SHA1, MySQL, NTLM, SHA256, MD5 Email, SHA256 Email, SHA512 hashes.
+- [MD5 Decrypt](https://md5decrypt.net/en/)
+  - Basic decryption of MD5, SHA1, SHA256, SHA384, SHA512, NTLM, COR, BCrypt, Blowfish, and Whirlpool hashes.
+- [ranbowtables.it64.com](http://rainbowtables.it64.com/)
+  - Rainbow table attack on Microsoft Windows LM hashes. 
   
-### Command Line Password Cracking Tools
+## Command Line Password Cracking Tools
 - [`hash-identifier`](https://www.kali.org/tools/hash-identifier/)
 - `hashcat` (more below)
 - [`fcrackzip`](https://www.kali.org/tools/fcrackzip/) — Zip password cracker
 - [John the Ripper](https://www.openwall.com/john/) — Password cracker
 - [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
   
-### Hashcat
+## Hashcat
 - Flag options (control character sets for brute force attacks)
   - `?l` — Charset: abcdefghijklmnopqrstuvwxyz
   - `?u` — Charset: ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -45,7 +51,8 @@
 - [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
 - Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
 
-### Wordlists and Rule Lists
+
+## Wordlists and Rule Lists
 
 
 ## PDF Files
@@ -54,3 +61,8 @@
 - `pdf2john`
 - `john`
 - [Writeup of Cracking Encrypted PDFs](https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/)
+
+
+
+
+
