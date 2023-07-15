@@ -99,3 +99,5 @@ Finally, if the above fail, you can extract the contents of the file using one o
 
 
 
+# Articles and Tutorials
+- [Firmware Forensics: Diffs, Timelines, ELFs, and Backdoors](https://w00tsec.blogspot.com/2015/02/firmware-forensics-diffs-timelines-elfs.html)
