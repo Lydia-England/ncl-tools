@@ -13,6 +13,7 @@
 - [ranbowtables.it64.com](http://rainbowtables.it64.com/)
   - Rainbow table attack on Microsoft Windows LM hashes. 
   
+---
 
 ## Command Line Password Cracking Tools
 - [Hash Identifier](https://www.kali.org/tools/hash-identifier/)
@@ -68,9 +69,11 @@
 - [Extracting WPA and WPA2 hashes from PCAPs for use with hashcat](https://hashcat.net/wiki/doku.php?id=hccapx)
 - Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
 
+---
 
 ## Wordlists and Rule Lists
 
+---
 
 ## PDF Files
 - `pdfcrack --wordlist=rockyou.txt filename.pdf`
@@ -79,10 +82,15 @@
 - `john`
 - [Writeup of Cracking Encrypted PDFs](https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/)
 
+---
 
 ## Windows Hashes 
   - LM, NTLM, Net-NTLMv2
   - Output from `hash-identifier` may look like: `SAM - (LM_hash:NT_hash)`
   - [Article on cracking Windows hashes](https://medium.com/@petergombos/lm-ntlm-net-ntlmv2-oh-my-a9b235c58ed4)
 
+---
 
+# Terminology
+
+For a more detailed description of the terminology of password cracking (hashing, salting, peppering, and lots of encryption algorithms), [check out this article from the Guardian](https://www.theguardian.com/technology/2016/dec/15/passwords-hacking-hashing-salting-sha-2).
