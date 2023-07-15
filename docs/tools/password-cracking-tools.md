@@ -20,10 +20,18 @@
   - Usage: enter `hash-identifier` in the command line. Enter hashes when prompted.
 - [HashID](https://www.kali.org/tools/hashid/)
   - Identify different types of hashes used to encrypt data and especially passwords.
+  - Usage: enter `hashid <hash>` in the command line, where `<hash>` can be a single hash or a file containing hashes.
 - [Hashcat](https://hashcat.net/wiki/)
   - More information below.
 - [fcrackzip](https://www.kali.org/tools/fcrackzip/) — Zip password cracker
-  - `fcrackzip -v -u -D -p rockyou.txt archive.zip`
+  - To use fcrackzip and the rockyou wordlist to crack the password on a ZIP file, enter: 
+  ```bash
+  fcrackzip -v -u -D -p rockyou.txt archive.zip
+  ```
+    - `-u` (`-use-unzip`) helps with false positives
+    - `-D` (`-dictionary`) selects dictionary mode
+    - `-p` (`-init-password string`) use to select the rockyou.txt file
+    - `-v` (`-verbose`) not required
 - [John the Ripper](https://www.openwall.com/john/) — Password cracker
 - [Ophcrack](https://ophcrack.sourceforge.io/) — Windows password cracker based on rainbow tables.
   
@@ -72,8 +80,7 @@
 - [Writeup of Cracking Encrypted PDFs](https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/)
 
 
-## Common Hash Types
-- Windows hashes
+## Windows Hashes 
   - LM, NTLM, Net-NTLMv2
   - Output from `hash-identifier` may look like: `SAM - (LM_hash:NT_hash)`
   - [Article on cracking Windows hashes](https://medium.com/@petergombos/lm-ntlm-net-ntlmv2-oh-my-a9b235c58ed4)
