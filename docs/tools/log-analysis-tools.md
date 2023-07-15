@@ -47,3 +47,13 @@
 ```python
 import json
 f = open('filename.json')
+```
+
+
+## Articles and Tutorials
+- [CryptoKait: How to Approach a Wild Log](https://cryptokait.com/2021/02/10/command-line-log-analysis-for-the-win-1-3-how-to-approach-a-wild-log/)
+- [CryptoKait: Walking Through "Leaping"](https://cryptokait.com/2021/02/15/command-line-log-analysis-for-the-win-2-3-walking-through-leaping/)
+- [CryptoKait: Untangling a Web Access Log](https://cryptokait.com/2021/02/17/command-line-log-analysis-for-the-win-3-3-untangling-a-web-access-log/)
+
+
+
