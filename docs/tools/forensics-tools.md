@@ -58,15 +58,15 @@ Note that many other steganography tools are detailed on the [Steganography page
 - `sha256sum /path/to/datafile > checksum` to generate the hash for a file in a directory. Use `cat` command to display the contents.
 
 
-## File Extensions  (and what to try)
+# File Extensions  (and what to try)
 
-### .docx
+## .docx
 
-### .tar.gz
+## .tar.gz
 
-### .zip
+## .zip
 
-### .bin
+## .bin
 The .bin extension is most commonly associated with compressed binary files. 
 A BIN file is a generic data file that stores information entirely or partially in binary format. 
 A BIN file may be an image or a video (think CD or DVD), or some other kind of executable.
@@ -95,7 +95,7 @@ Finally, if the above fail, you can extract the contents of the file using one o
 - Gmount-iso
 - cdemu
 
-### .log
+## .log
 
 
 
