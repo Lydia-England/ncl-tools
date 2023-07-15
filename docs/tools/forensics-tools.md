@@ -67,5 +67,35 @@ Note that many other steganography tools are detailed on the [Steganography page
 ### .zip
 
 ### .bin
+The .bin extension is most commonly associated with compressed binary files. 
+A BIN file is a generic data file that stores information entirely or partially in binary format. 
+A BIN file may be an image or a video (think CD or DVD), or some other kind of executable.
+
+Bin files are often used for distributing executable files for program installations; in this case, a .bin file is a self-extracting binary file for Linux and Unix-like operating systems. 
+In this case, to extract and open a bin file:
+- Make the file executable by using `chmod` command:
+  ```bash
+  chmod +x filename.bin
+  ```
+- Execute the file: 
+  ```bash
+  ./filename.bin
+  ```
+
+If the BIN file isn't executable, you can instead mount the file to a virtual drive.
+Instructions for Linux systems can be found [in this article](https://ubunlog.com/en/que-es-un-archivo-bin-y-como-abrirlo-en-ubuntu/#Montar_el_BIN_como_disco_virtual).
+
+Alternatively, you can convert the BIN file into an ISO file, which allows you to use many more programs to burn or mount it.
+One popular program to do this is MagicISO.
+
+Finally, if the above fail, you can extract the contents of the file using one of the following tools:
+- bchunk
+- acetoneiso
+- ISO Furius
+- Gmount-iso
+- cdemu
 
 ### .log
+
+
+
