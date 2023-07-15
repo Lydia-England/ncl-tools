@@ -20,7 +20,7 @@
   - `?f` — Charset: 0123456789
   - `?h` — Charset: 0123456789abcdef
   - `?H` — Charset: 0123456789ABCDEF
-  - `?s` — Charset: !”#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+  - `?s` — Charset: `!”#$%&'()*+,-./:;<=>?@[\]^_{|}~`
   - `?a` — Charset: ?l?u?d?s
   - `?b` — Charset: 0x00 – 0xff
 - Attack modes
@@ -46,3 +46,11 @@
 - Hashcat example hashes and associated codes found [here](https://hashcat.net/wiki/doku.php?id=example_hashes).
 
 ### Wordlists and Rule Lists
+
+
+## PDF Files
+- `pdfcrack --wordlist=rockyou.txt filename.pdf`
+- `pdf-parser`
+- `pdf2john`
+- `john`
+- [Writeup of Cracking Encrypted PDFs](https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/)
