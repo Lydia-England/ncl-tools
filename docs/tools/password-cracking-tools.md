@@ -72,6 +72,8 @@
 ---
 
 ## Wordlists and Rule Lists
+- [Weakpass](https://weakpass.com/wordlist)
+  - Website dedicated to supplying free wordlists for password cracking via. bruteforce. 
 
 ---
 
