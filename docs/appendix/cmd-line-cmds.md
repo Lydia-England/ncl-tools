@@ -1,14 +1,5 @@
 # Appndix: Command Line Commands
 
-## Contents
-- File Tree Navigation
-- Input/Output Redirection
-- Shortcuts
-- Grep
-- Background Commands and Persistent Sessions
-
----
-
 ## File Tree Navigation
  `ls` lists all files and directories in the working directory.
   - `ls -a` lists all contents in working directory, includes hidden files and directories.
