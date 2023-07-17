@@ -127,6 +127,7 @@ Multi options:
 - [Deepsound](http://jpinsoft.net/deepsound/download.aspx) 
   - Hide and check for information encrypted with AES-265 in sound files.
   - If DeepSound finds any data hidden, you'll need to provide the password to unlock it.
+- [Online Audio Spectrum Analyzer](https://academo.org/demos/spectrum-analyzer/)
 
 
 ## Software for Steganography
