@@ -9,28 +9,28 @@ Click on the links below to view my lists of tools for each category!
 ---
 
 ## Categories
-- [**Open Source Intelligence**](/tools/osint-tools.md#Open-Source-Intelligence)
-- [**Cryptography**](/tools/cryptography-tools.md#Cryptography)
-- [**Steganography**](/tools/steg-tools.md#Cryptography)
-- [**Password Cracking**](/tools/password-cracking-tools.md#Password-Cracking)
-- [**Log Analysis**](/tools/log-analysis-tools.md#Log-Analysis)
-- [**Network Traffic Analysis**](/tools/network-traffic-analysis-tools.md#Network-Traffic-Analysis)
-- [**Forensics**](/tools/forensics-tools.md#Forensics)
-- [**Wireless Access Exploitation**](/tools/wireless-access-exploit-tools.md#Wireless-Access-Exploitation)
-- [**Scanning and Reconnaissance**](/tools/scanning-recon-tools.md#Scanning-and-Reconnaissance)
-- [**Web Application Exploitation**](/tools/web-app-exploit-tools.md#Web-Application-Exploitation)
-- [**Enumeration and Exploitation**](/tools/enumeration-exploit-tools.md#Enumeration-and-Exploitation)
-- [**Misc. and Unsorted Tools**](/tools/misc-tools.md)
+- [**Open Source Intelligence**][osint-tools]
+- [**Cryptography**][crypto-tools]
+- [**Steganography**][stego-tools]
+- [**Password Cracking**][password-tools]
+- [**Log Analysis**][log-tools]
+- [**Network Traffic Analysis**][network-tools]
+- [**Forensics**][forensics-tools]
+- [**Wireless Access Exploitation**][wireless-tools]
+- [**Scanning and Reconnaissance**][scanrecon-tools]
+- [**Web Application Exploitation**][web-tools]
+- [**Enumeration and Exploitation**][enum-tools]
+- [**Misc. and Unsorted Tools**][misc-tools]
 
 
 ---
 
 ## Appendix
-- [Command Line Commands](/appendix/cmd-line-cmds.md)
-- [Environment](/appendix/environment.md)
-- [Resources](/appendix/resources.md)
-- [NCL Strategies](/appendix/ncl-strategies.md)
-- [Definitions](/appendix/definitions.md)
+- [Command Line Commands][cmdlinecmds-apx]
+- [Environment][environment-apx]
+- [Resources][resources-apx]
+- [NCL Strategies][strategies-apx]
+- [Definitions][definitions-apx]
 
 
 ---
@@ -62,5 +62,11 @@ An article from the Applied Cybersecurity Division at NIST describes the [Nation
 [scanrecon-tools]: /tools/scanning-recon-tools.md
 [web-tools]: 	   /tools/web-app-exploit-tools.md
 [enum-tools]: 	   /tools/enumeration-exploit-tools.md
+[misc-tools]:      /tools/misc-tools.md
+[cmdlinecmds-apx]: /appendix/cmd-line-cmds.md
+[environment-apx]: /appendix/environment.md
+[resources-apx]:   /appendix/resources.md
+[strategies-apx]:  /appendix/ncl-strategies.md
+[definitions-apx]: /appendix/definitions.md
 
 
