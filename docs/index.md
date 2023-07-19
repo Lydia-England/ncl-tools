@@ -51,22 +51,22 @@ This website is a work (always) in progress and will be updated regularly!
 An article from the Applied Cybersecurity Division at NIST describes the [National Cyber League NICE Framework Success Story](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-success-story-national).  
 
 
-[osint-tools]:	   /tools/osint-tools.md
-[crypto-tools]:	   /tools/cryptography-tools.md
-[stego-tools]:	   /tools/steg-tools.md
-[password-tools]:  /tools/password-cracking-tools.md
-[log-tools]:	   /tools/log-analysis-tools.md
-[network-tools]:   /tools/network-traffic-analysis-tools.md
+[osint-tools]: /tools/osint-tools.md
+[crypto-tools]: /tools/cryptography-tools.md
+[stego-tools]: /tools/steg-tools.md
+[password-tools]: /tools/password-cracking-tools.md
+[log-tools]: /tools/log-analysis-tools.md
+[network-tools]: /tools/network-traffic-analysis-tools.md
 [forensics-tools]: /tools/forensics-tools.md
-[wireless-tools]:  /tools/wireless-access-exploit-tools.md
+[wireless-tools]: /tools/wireless-access-exploit-tools.md
 [scanrecon-tools]: /tools/scanning-recon-tools.md
-[web-tools]: 	   /tools/web-app-exploit-tools.md
-[enum-tools]: 	   /tools/enumeration-exploit-tools.md
-[misc-tools]:      /tools/misc-tools.md
+[web-tools]: /tools/web-app-exploit-tools.md
+[enum-tools]: /tools/enumeration-exploit-tools.md
+[misc-tools]: /tools/misc-tools.md
 [cmdlinecmds-apx]: /appendix/cmd-line-cmds.md
 [environment-apx]: /appendix/environment.md
-[resources-apx]:   /appendix/resources.md
-[strategies-apx]:  /appendix/ncl-strategies.md
+[resources-apx]: /appendix/resources.md
+[strategies-apx]: /appendix/ncl-strategies.md
 [definitions-apx]: /appendix/definitions.md
 
 
