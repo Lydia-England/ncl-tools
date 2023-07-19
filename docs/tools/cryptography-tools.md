@@ -123,3 +123,6 @@ For steganography tools, visit the [Steganography Tools Page](/steg-tools.md)
   - Uncipher data from weak public keys and attempt to recover the corresponding private key.
   
 
+## AES
+- bruteforce-salted-openssl
+- openssl

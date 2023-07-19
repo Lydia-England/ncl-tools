@@ -91,6 +91,14 @@
   - Output from `hash-identifier` may look like: `SAM - (LM_hash:NT_hash)`
   - [Article on cracking Windows hashes](https://medium.com/@petergombos/lm-ntlm-net-ntlmv2-oh-my-a9b235c58ed4)
 
+
+## md5crypt
+Format: $1$salt$checksum, where:
+- $1$ is the prefix used to identify md5-crypt hashes. 
+- salt is 0-8 characters (regexp range) providing a 48 bit salt. 
+- checksum is 22 characters drawn from the same character set as the salt, encoding a 128-bit checksum.
+
+
 ---
 
 # Terminology
