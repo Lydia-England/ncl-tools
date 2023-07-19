@@ -9,18 +9,18 @@ Click on the links below to view my lists of tools for each category!
 ---
 
 ## Categories
-- [**Open Source Intelligence**][osint-tools]
-- [**Cryptography**][crypto-tools]
-- [**Steganography**][stego-tools]
-- [**Password Cracking**][password-tools]
-- [**Log Analysis**][log-tools]
-- [**Network Traffic Analysis**][network-tools]
-- [**Forensics**][forensics-tools]
-- [**Wireless Access Exploitation**][wireless-tools]
-- [**Scanning and Reconnaissance**][scanrecon-tools]
-- [**Web Application Exploitation**][web-tools]
-- [**Enumeration and Exploitation**][enum-tools]
-- [**Misc. and Unsorted Tools**][misc-tools]
+- [Open Source Intelligence][osint-tools]
+- [Cryptography][crypto-tools]
+- [Steganography][stego-tools]
+- [Password Cracking][password-tools]
+- [Log Analysis][log-tools]
+- [Network Traffic Analysis][network-tools]
+- [Forensics][forensics-tools]
+- [Wireless Access Exploitation][wireless-tools]
+- [Scanning and Reconnaissance][scanrecon-tools]
+- [Web Application Exploitation][web-tools]
+- [Enumeration and Exploitation][enum-tools]
+- [Misc. and Unsorted Tools][misc-tools]
 
 
 ---
