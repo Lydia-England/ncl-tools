@@ -1,6 +1,6 @@
-## Log Analysis
+# Log Analysis
 
-### Command Line Log Analysis Tools
+## Command Line Log Analysis Tools
 - `cut` extracts column(s) from a file or text stream. Columns must be delineated by a consistent character. 
   - `cut example.txt -d , -f 2` prints the second column from example.txt where a comma is used to separate each column.
 - `sort` sorts the lines from a file or text stream.
@@ -30,18 +30,23 @@
   - `-w` flag to print number of words only. A word is defined as a string of characters delimited by spaces, tabs, or newline characters.
 - `awk` is a tool used to manipulate data. It can be used to extract specific columns from data.
   - `cat example.txt | awk '{print #2}'` prints the second column in example.txt.
-- `tail` prints the last several lines of a file.
-  - `tail example.txt` prints the last lines of example.txt.
+- `tail` prints the last 10 lines of a file.
+  - `tail example.txt` prints the last 10 lines of example.txt.
+  - `tail -12 example.txt` prints the last 12 lines of example.txt.
+- `head` prints the first 10 lines of a file.
+  - `head example.txt` prints the first 10 lines of example.txt.
+  - `head -7 example.txt` prints the first 7 lines of example.txt.
 
-### SQLite
+## SQLite
 - [SQLite Browser](https://sqlitebrowser.org/dl/)
+  - `sqlitebrowser` GUI.
 - [`sqlite3 <file.sqlite>`](https://www.sqlite.org/cli.html)
   - `.tables` to see a list of tables.
   - `.index` to see index.
   - `.schema` to see a list of schema.
   - `.databases`
     
-### Creating Programs to do Log Analysis
+## Creating Programs to do Log Analysis
 - `.json` File, Python analysis:
   - *Find unique IPs, unique signatures, most popular category, total bytes sent, category of non TCP traffic*
 ```python
